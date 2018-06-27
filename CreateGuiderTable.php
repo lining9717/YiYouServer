@@ -26,4 +26,10 @@ gServerCity varchar(50) not null,
 gStars int not null
 )";
 
+if ($conn->query($user_table_sql) === TRUE) {
+    echo "User table created successfully";
+} else {
+    echo "Fail to create user table " . $conn->error;
+}
+
 $conn->close();
