@@ -25,3 +25,5 @@ gGuideNumber varchar(50) not null,
 gServerCity varchar(50) not null,
 gStars int not null
 )";
+
+$conn->close();

@@ -38,4 +38,5 @@ if ($conn->query($user_table_sql) === TRUE) {
     echo "Fail to create user table " . $conn->error;
 }
 
+$conn->close();
 
