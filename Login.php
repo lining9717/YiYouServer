@@ -32,9 +32,35 @@ if ($result->num_rows > 0) {
         );
         Response::json(1, "登录成功", $data);
     } else {
-        Response::json(0, "密码错误", "");
+        $data = array(
+            "nickname" => "error password",
+            "telephone" => "error password",
+            "sex" => "error password",
+            "headphoto" => "error password",
+            "introduce" => "error password",
+            "isguide" => "error password",
+            "guideid" => "error password",
+            "collectguideid" => "error password",
+            "collecteassyid" => "error password",
+            "star" => "error password",
+            "password" => "error password"
+        );
+        Response::json(0, "密码错误", $data);
     }
 } else {
+    $data = array(
+        "nickname" => "empty telephone",
+        "telephone" => "empty telephone",
+        "sex" => "empty telephone",
+        "headphoto" => "empty telephone",
+        "introduce" => "empty telephone",
+        "isguide" => "empty telephone",
+        "guideid" => "empty telephone",
+        "collectguideid" => "empty telephone",
+        "collecteassyid" => "empty telephone",
+        "star" => "empty telephone",
+        "password" => "empty telephone"
+    );
     Response::json(0, "账户不存在", "");
 }
 $conn->close();
