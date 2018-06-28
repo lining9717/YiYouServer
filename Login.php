@@ -39,10 +39,10 @@ if ($result->num_rows > 0) {
             "headphoto" => "error password",
             "introduce" => "error password",
             "isguide" => "error password",
-            "guideid" => "error password",
-            "collectguideid" => "error password",
-            "collecteassyid" => "error password",
-            "star" => "error password",
+            "guideid" => 0,
+            "collectguideid" => 0,
+            "collecteassyid" => 0,
+            "star" => 0,
             "password" => "error password"
         );
         Response::json(0, "密码错误", $data);
@@ -55,10 +55,10 @@ if ($result->num_rows > 0) {
         "headphoto" => "empty telephone",
         "introduce" => "empty telephone",
         "isguide" => "empty telephone",
-        "guideid" => "empty telephone",
-        "collectguideid" => "empty telephone",
-        "collecteassyid" => "empty telephone",
-        "star" => "empty telephone",
+        "guideid" => 0,
+        "collectguideid" => 0,
+        "collecteassyid" => 0,
+        "star" => 0,
         "password" => "empty telephone"
     );
     Response::json(0, "账户不存在", $data);
