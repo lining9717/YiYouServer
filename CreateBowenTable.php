@@ -8,8 +8,8 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "Abc12345";
-$dbname = "YiYou";
+$password = "abc12345";
+$dbname = "easytour";
 
 $conn = new mysqli($servername,$username,$password,$dbname);
 
@@ -20,13 +20,13 @@ if($conn->connect_error){
 $bowen_table_sql = "create table bowen(
 bId int(11) unsigned auto_increment primary key,
 bUserId int(11) not null,
-bUserNickname varchar not null,
-bTitle varchar not null ,
-bBody message_text not null,
-bImage varchar,
+bUserNickName varchar(50) not null,
+bTitle varchar(50) not null,
+bBody text not null,
+bImage varchar(100),
 bZanNumber int not null,
 bCommentId int(11) not null,
-bCollectNumber int not 
+bCollectNumber int not null
 )";
 
 if ($conn->query($bowen_table_sql) === TRUE) {

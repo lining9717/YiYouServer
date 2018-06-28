@@ -21,7 +21,7 @@ $comment_table_sql = "create table comment(
 cId int(11) unsigned auto_increment primary key,
 cContent varchar(100) not null ,
 cUserId int(11) not null,
-cUserNickName varchar not null 
+cUserNickName varchar(50) not null 
 )";
 
 if ($conn->query($comment_table_sql) === TRUE) {

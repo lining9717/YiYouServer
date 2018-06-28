@@ -19,13 +19,13 @@ if($conn->connect_error){
 
 $order_table_sql = "create table order(
 oId int(11) unsigned auto_increment primary key,
-oStatus varchar not null,
+oStatus varchar(10) not null,
 oUserId int(11) not null,
 oGuideId int(11),
-oPlace varchar not null ,
+oPlace varchar(100) not null ,
 oData date not null ,
 oNumberOfPeople int not null ,
-oDescription varchar not null ,
+oDescription varchar(100) not null ,
 oToUserStar int,
 oToGuideStar int
 )";

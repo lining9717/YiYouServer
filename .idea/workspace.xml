@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02121d3e-bbaa-480b-9481-b637f059aaf2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/CreateBowenTable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreateCommentTable.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreateBowenTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/CreateBowenTable.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,20 +32,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateBowenTable.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CreateBowenTable.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CreateBowenTable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="19" selection-start-line="19" selection-end-line="37" selection-end-column="15" />
+            <state relative-caret-position="85">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="29" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateCommentTable.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CreateCommentTable.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CreateCommentTable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+            <state relative-caret-position="85">
+              <caret line="19" selection-start-line="19" selection-end-line="32" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateOrderTable.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CreateOrderTable.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="38" column="15" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -63,8 +71,8 @@
       <file leaf-file-name="CreateGuiderTable.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CreateGuiderTable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="8" selection-start-line="8" selection-end-line="34" selection-end-column="15" />
+            <state relative-caret-position="273">
+              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -108,8 +116,9 @@
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/Register.php" />
         <option value="$PROJECT_DIR$/Login.php" />
-        <option value="$PROJECT_DIR$/CreateBowenTable.php" />
         <option value="$PROJECT_DIR$/CreateCommentTable.php" />
+        <option value="$PROJECT_DIR$/CreateOrderTable.php" />
+        <option value="$PROJECT_DIR$/CreateBowenTable.php" />
       </list>
     </option>
   </component>
@@ -163,15 +172,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.test.php">
+  <component name="RunManager" selected="JavaScript Debug.CreateBowenTable.php">
+    <configuration name="CreateBowenTable.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/EasyTour_new/CreateBowenTable.php" />
     <configuration name="test.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/EasyTour_new/test.php" />
     <configuration name="test.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/test.php" />
     <list>
       <item itemvalue="PHP Script.test.php" />
       <item itemvalue="JavaScript Debug.test.php" />
+      <item itemvalue="JavaScript Debug.CreateBowenTable.php" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.CreateBowenTable.php" />
         <item itemvalue="PHP Script.test.php" />
         <item itemvalue="JavaScript Debug.test.php" />
       </list>
@@ -189,12 +201,12 @@
       <updated>1530070952570</updated>
       <workItem from="1530070953789" duration="15274000" />
       <workItem from="1530112869138" duration="1624000" />
-      <workItem from="1530147172220" duration="15683000" />
+      <workItem from="1530147172220" duration="18114000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32581000" />
+    <option name="totallyTimeSpent" value="35012000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -210,6 +222,7 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289256" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289256" />
@@ -224,7 +237,6 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -239,7 +251,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -337,6 +349,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CreateGuiderTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreateCommentTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="19" selection-start-line="19" selection-end-line="32" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CreateDatabase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -344,24 +370,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CreateGuiderTable.php">
+    <entry file="file://$PROJECT_DIR$/CreateOrderTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="8" selection-start-line="8" selection-end-line="34" selection-end-column="15" />
+        <state relative-caret-position="561">
+          <caret line="38" column="15" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CreateBowenTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="19" selection-start-line="19" selection-end-line="37" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CreateCommentTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        <state relative-caret-position="85">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="29" selection-end-column="1" />
         </state>
       </provider>
     </entry>
