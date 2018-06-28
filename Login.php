@@ -61,7 +61,7 @@ if ($result->num_rows > 0) {
         "star" => "empty telephone",
         "password" => "empty telephone"
     );
-    Response::json(0, "账户不存在", "");
+    Response::json(0, "账户不存在", $data);
 }
 $conn->close();
 
