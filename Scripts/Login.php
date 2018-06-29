@@ -8,6 +8,8 @@
 
 require_once('Connect.php');
 
+$password = str_replace('"','', $_POST['password']);
+$tel = str_replace('"','', $_POST['tel']);
 
 $sql_login = "select * from user where uTelephone = '$tel'";
 

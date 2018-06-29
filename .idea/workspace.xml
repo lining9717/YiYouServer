@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02121d3e-bbaa-480b-9481-b637f059aaf2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/CreateTables/CreateBowenImageTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Connect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateBowenTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/CreateTables/CreateBowenTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateCollectedEssayTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/CreateTables/CreateCollectedEssayTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateCollectedGuideTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/CreateTables/CreateCollectedGuideTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateCommentTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/CreateTables/CreateCommentTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateDatabase.php" beforeDir="false" afterPath="$PROJECT_DIR$/CreateTables/CreateDatabase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateGuiderTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/CreateTables/CreateGuiderTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateOrderTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/CreateTables/CreateOrderTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateUserTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/CreateTables/CreateUserTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModifyUserInfo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/ModifyUserInfo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Register.php" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/ModifyUserInfo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/ModifyUserInfo.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,8 +26,8 @@
       <file leaf-file-name="Login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/Login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+            <state relative-caret-position="391">
+              <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -62,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModifyUserInfo.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ModifyUserInfo.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scripts/ModifyUserInfo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="35" column="45" lean-forward="true" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+            <state relative-caret-position="374">
+              <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -98,20 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Register.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Register.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/Register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateBowenImageTable.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CreateTables/CreateBowenImageTable.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="85">
+              <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -144,9 +123,10 @@
         <option value="$PROJECT_DIR$/CreateCollectedEssayTable.php" />
         <option value="$PROJECT_DIR$/Login.php" />
         <option value="$PROJECT_DIR$/Scripts/Register.php" />
-        <option value="$PROJECT_DIR$/Scripts/ModifyUserInfo.php" />
         <option value="$PROJECT_DIR$/CreateTables/CreateBowenImageTable.php" />
         <option value="$PROJECT_DIR$/CreateTables/CreateBowenTable.php" />
+        <option value="$PROJECT_DIR$/Scripts/Login.php" />
+        <option value="$PROJECT_DIR$/Scripts/ModifyUserInfo.php" />
       </list>
     </option>
   </component>
@@ -248,12 +228,12 @@
       <workItem from="1530070953789" duration="15274000" />
       <workItem from="1530112869138" duration="1624000" />
       <workItem from="1530147172220" duration="20913000" />
-      <workItem from="1530233084258" duration="12085000" />
+      <workItem from="1530233084258" duration="14581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49896000" />
+    <option name="totallyTimeSpent" value="52392000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -266,8 +246,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21028744" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21028744" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289256" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -276,7 +257,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289256" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.28429753" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30578512" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30578512" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -500,31 +481,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CreateTables/CreateBowenImageTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/ModifyUserInfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="35" column="45" lean-forward="true" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/Login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+        <state relative-caret-position="391">
+          <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreateTables/CreateBowenImageTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/Register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="85">
+          <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/ModifyUserInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
         </state>
       </provider>
     </entry>
