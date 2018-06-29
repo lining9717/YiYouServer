@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02121d3e-bbaa-480b-9481-b637f059aaf2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Scripts/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/ModifyUserInfo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/ModifyUserInfo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/ModifyUserInfo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/UpdateUserInfo.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModifyUserInfo.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Scripts/ModifyUserInfo.php">
+      <file leaf-file-name="UpdateUserInfo.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Scripts/UpdateUserInfo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+            <state relative-caret-position="119">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -228,12 +228,12 @@
       <workItem from="1530070953789" duration="15274000" />
       <workItem from="1530112869138" duration="1624000" />
       <workItem from="1530147172220" duration="20913000" />
-      <workItem from="1530233084258" duration="14581000" />
+      <workItem from="1530233084258" duration="15595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52392000" />
+    <option name="totallyTimeSpent" value="53406000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -257,7 +257,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289256" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.28429753" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30578512" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30578512" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -345,7 +345,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/ModifyUserInfo.php">
+    <entry file="file://$PROJECT_DIR$/Scripts/UpdateUserInfo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
@@ -502,10 +502,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/ModifyUserInfo.php">
+    <entry file="file://$PROJECT_DIR$/Scripts/UpdateUserInfo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+        <state relative-caret-position="119">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="28" />
         </state>
       </provider>
     </entry>

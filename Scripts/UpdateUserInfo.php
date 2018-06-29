@@ -13,7 +13,7 @@ $password = $_POST['password'];
 $nickname = $_POST['nickname'];
 $sex = $_POST['sex'];
 $introduce = $_POST['introduce'];
-$isUpdateHeadIcon = $_POST['isupdateheadicon'];
+$isUpdateHeadIcon = $_POST['imageInfo'];
 
 if($isUpdateHeadIcon == "update"){
     if($_FILES["file"]["error"]>0){
