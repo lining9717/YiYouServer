@@ -24,7 +24,7 @@ ceUserId int(11) not null,
 ceBowenTitle varchar(50) not null 
 )";
 
-if ($conn->query($collect_guide_sql) === TRUE) {
+if ($conn->query($collect_essay_sql) === TRUE) {
     echo "collect guide table created successfully";
 } else {
     echo "Fail to create collect guide table " . $conn->error;

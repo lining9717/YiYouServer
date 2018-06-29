@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02121d3e-bbaa-480b-9481-b637f059aaf2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/CreateCollectedEssayTable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreateCollectedGuideTable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModifyUserInfo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Register.php" beforeDir="false" afterPath="$PROJECT_DIR$/Register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreateCollectedEssayTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/CreateCollectedEssayTable.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,18 +22,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateCollectedGuideTable.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CreateCollectedGuideTable.php">
+      <file leaf-file-name="Login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+            <state relative-caret-position="13">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateCollectedEssayTable.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CreateCollectedGuideTable.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CreateCollectedGuideTable.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateBowenTable.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CreateBowenTable.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateCollectedEssayTable.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CreateCollectedEssayTable.php">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="CreateCommentTable.php" pinned="false" current-in-tab="false">
@@ -46,6 +63,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Register.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Register.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-52">
+              <caret line="48" column="48" lean-forward="true" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -76,6 +102,7 @@
         <option value="$PROJECT_DIR$/Register.php" />
         <option value="$PROJECT_DIR$/Login.php" />
         <option value="$PROJECT_DIR$/CreateCollectedGuideTable.php" />
+        <option value="$PROJECT_DIR$/CreateCollectedEssayTable.php" />
       </list>
     </option>
   </component>
@@ -160,12 +187,12 @@
       <workItem from="1530070953789" duration="15274000" />
       <workItem from="1530112869138" duration="1624000" />
       <workItem from="1530147172220" duration="20913000" />
-      <workItem from="1530233084258" duration="8464000" />
+      <workItem from="1530233084258" duration="9386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46275000" />
+    <option name="totallyTimeSpent" value="47197000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -189,7 +216,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289256" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.28429753" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30578512" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30578512" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -364,13 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CreateBowenTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CreateDatabase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -382,13 +402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="10" column="34" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -406,16 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="48" column="48" lean-forward="true" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CreateCollectedEssayTable.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/CreateCommentTable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -423,10 +426,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CreateBowenTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CreateCollectedGuideTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        <state relative-caret-position="221">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="48" column="48" lean-forward="true" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreateCollectedEssayTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
         </state>
       </provider>
     </entry>

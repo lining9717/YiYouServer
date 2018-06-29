@@ -23,8 +23,6 @@ if ($result->num_rows > 0) {
             "introduce" => $row['uIntroduce'],
             "isguide" => $row['uIsGuide'],
             "guideid" => $row['uGuideId'],
-            "collectguideid" => $row['uCollectGuideId'],
-            "collecteassyid" => $row['uCollectEssayId'],
             "star" => $row['uStars'],
             "password" => $row['uPassword']
         );
@@ -38,8 +36,6 @@ if ($result->num_rows > 0) {
             "introduce" => "error password",
             "isguide" => "error password",
             "guideid" => 0,
-            "collectguideid" => 0,
-            "collecteassyid" => 0,
             "star" => 0,
             "password" => "error password"
         );
@@ -54,8 +50,6 @@ if ($result->num_rows > 0) {
         "introduce" => "empty telephone",
         "isguide" => "empty telephone",
         "guideid" => 0,
-        "collectguideid" => 0,
-        "collecteassyid" => 0,
         "star" => 0,
         "password" => "empty telephone"
     );
