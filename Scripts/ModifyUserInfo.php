@@ -31,8 +31,8 @@ if(!isTelUsed($conn,$tel)){
         Response::json(0,"头像文件传输错误：". $_FILES["file"]["error"],"");
     }else{
         $newfile= time().rand(1,1000).substr($_FILES["file"]["name"],strrpos($_FILES["file"]["name"],"."));
-        $imagepath= "http://118.89.18.136/YiYou/YiYouImg/Avatar/".$newfile;
-        if(move_uploaded_file($_FILES["file"]["tmp_name"], "Avatar/".$newfile)){
+        $imagepath= "http://118.89.18.136/YiYou/image/".$newfile;
+        if(move_uploaded_file($_FILES["file"]["tmp_name"], "image/".$newfile)){
             $sql_insert = "insert into user".
                 "(uNickname,uTelephone,uSex,uHeadPhoto,uIntroduce,uIsGuide,uStars,uPassword,uGuideId,uCollectGuideId,uCollectEssayId) ".
                 "values('$username','$tel','男','$imagepath','让旅行更简单','否',5,'$password',0,0,0)";

@@ -9,7 +9,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "abc12345";
-$dbname = "easytour";
+$dbname = "YiYou";
 
 $conn = new mysqli($servername,$username,$password,$dbname);
 
@@ -23,7 +23,6 @@ bUserId int(11) not null,
 bUserNickName varchar(50) not null,
 bTitle varchar(50) not null,
 bBody text not null,
-bImage varchar(100),
 bZanNumber int not null,
 bCommentId int(11) not null,
 bCollectNumber int not null
