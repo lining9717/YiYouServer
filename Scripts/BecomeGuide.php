@@ -39,13 +39,13 @@ function isGuideNumberUsed($conn,$guidenumber){
 if(!isIDNumberUsed($conn,$guideIDNumber)){
     if(!isGuideNumberUsed($conn,$guideNumber)){
         $sql_become_guide = "insert into guide".
-                            "(gRealName,gIDNumber,gGuideNumber,gServerCity) ".
-                            "values('$guideRealName','$guideIDNumber','$guideNumber','$guideServerCity')";
+                            "(gRealName,gIDNumber,gGuideNumber,gServerCity,gStars) ".
+                            "values('$guideRealName','$guideIDNumber','$guideNumber','$guideServerCity',5)";
         if ($conn->query($sql_become_guide) === TRUE) {
-           $sql_search_guideId = "select gId from guide where gIDNumber= '$guideIDNumber'";
+           $sql_search_guideId = "select gId from guide where gIDNumber= $guideIDNumber";
            $result_guideId = $conn->query($sql_search_guideId);
            if($result_guideId->num_rows>0){
-               $row = $result->fetch_assoc();
+               $row = $result_guideId->fetch_assoc();
                $guideId = $row['gId'];
                $sql_update_user = "update user set 
                                    uIsGuide = '是',
