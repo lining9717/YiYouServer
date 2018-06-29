@@ -7,10 +7,10 @@
  */
 
 require_once('Connect.php');
-$username = $_POST['username'];
-$password = $_POST['password'];
-$tel = $_POST['tel'];
-$headImage = $_POST['imageInfo'];
+$username = str_replace('"','', $_POST['username']);
+$password = str_replace('"','', $_POST['password']);
+$tel = str_replace('"','', $_POST['tel']);
+$headImage = str_replace('"','', $_POST['imageInfo']);
 
 function isTelUsed($conn,$telnumber){
     $sql_check = "select uTelephone from user";
@@ -38,7 +38,8 @@ if(!isTelUsed($conn,$tel)){
         if($_FILES["file"]["error"]>0){
             Response::json(0,"头像文件传输错误：". $_FILES["file"]["error"],"");
         }else{
-            $newfile= time().rand(1,1000).substr($_FILES["file"]["name"],strrpos($_FILES["file"]["name"],"."));
+            $filename = $_FILES["file"]["name"];
+            $newfile= time().rand(1,1000).substr($filename,strrpos($filename,"."));
             $imagepath= "http://118.89.18.136/YiYou/YiYouImg/Avatar/".$newfile;
             if(move_uploaded_file($_FILES["file"]["tmp_name"], "Avatar/".$newfile)){
                 $sql_insert = "insert into user".
@@ -50,7 +51,10 @@ if(!isTelUsed($conn,$tel)){
                     Response::json(0,"注册失败2，服务端错误:".$conn->error,"");
                 }
             }else{
-                Response::json(0,"头像文件移动错误","");
+                Response::json(0,"头像文件移动错误(imageInfo:".$headImage.
+                    ",username:".$username.
+                    ",image:".$filename.
+                    ",imagepath:".$imagepath.")","");
             }
         }
     }
