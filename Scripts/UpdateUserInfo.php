@@ -8,12 +8,12 @@
 
 require_once('Connect.php');
 
-$tel = $_POST['tel'];
-$password = $_POST['password'];
-$nickname = $_POST['nickname'];
-$sex = $_POST['sex'];
-$introduce = $_POST['introduce'];
-$isUpdateHeadIcon = $_POST['imageInfo'];
+$tel = str_replace('"','', $_POST['tel']);
+$password = str_replace('"','', $_POST['password']);
+$nickname = str_replace('"','', $_POST['nickname']);
+$sex = str_replace('"','', $_POST['sex']);
+$introduce = str_replace('"','', $_POST['introduce']);
+$isUpdateHeadIcon = str_replace('"','', $_POST['imageInfo']);
 
 if($isUpdateHeadIcon == "update"){
     if($_FILES["file"]["error"]>0){
