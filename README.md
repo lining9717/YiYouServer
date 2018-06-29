@@ -5,7 +5,7 @@
 
    请求类型：POST请求
 
-   URL地址：http://118.89.18.136/YiYou/YiYouImg/Login.php
+   URL地址：http://118.89.18.136/YiYou/Login.php
 
    参数：
 
@@ -28,8 +28,6 @@
    		"introduce": String,
    		"isguide": String,
    		"guideid": int,
-   		"collectguideid": int,
-   		"collecteassyid": int,
    		"star": int,
    		"password": String
    	}
@@ -48,7 +46,7 @@
 
    请求类型：POST请求
 
-   URL地址：http://118.89.18.136/YiYou/YiYouImg/Register.php
+   URL地址：http://118.89.18.136/YiYou/Register.php
 
    参数：
 
