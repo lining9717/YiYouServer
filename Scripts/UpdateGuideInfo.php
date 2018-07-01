@@ -12,7 +12,7 @@ $guideIDNumber = $_POST['IDNumber'];
 $guideServerCity = $_POST['servercity'];
 
 $update_guide_sql = "update guide set
-                     gServerCity = '$serveServerCity'
+                     gServerCity = '$guideServerCity'
                      where gIDNumber = '$guideIDNumber'";
 if ($conn->query($update_guide_sql) === TRUE) {
     Response::json(1,"修改成功","");
