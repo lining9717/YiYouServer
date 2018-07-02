@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02121d3e-bbaa-480b-9481-b637f059aaf2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Scripts/ReleaseOrder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Login.php" afterDir="false" />
-    </list>
+    <list default="true" id="02121d3e-bbaa-480b-9481-b637f059aaf2" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +55,8 @@
       <file leaf-file-name="Login.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scripts/Login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="29" column="54" lean-forward="true" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+            <state relative-caret-position="102">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -228,12 +224,12 @@
       <workItem from="1530147172220" duration="20913000" />
       <workItem from="1530233084258" duration="22000000" />
       <workItem from="1530413222755" duration="5596000" />
-      <workItem from="1530492885463" duration="1917000" />
+      <workItem from="1530492885463" duration="2472000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67324000" />
+    <option name="totallyTimeSpent" value="67879000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -248,7 +244,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14588688" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14588688" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289256" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -257,7 +253,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289256" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.28429753" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3970588" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3962008" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -598,8 +594,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/Login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="29" column="54" lean-forward="true" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+        <state relative-caret-position="102">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>

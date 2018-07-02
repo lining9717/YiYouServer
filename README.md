@@ -30,6 +30,11 @@
    		"guideid": int,
    		"star": int,
    		"password": String
+   		"guiderealname": String,
+   		"guideIDnumbr": String,
+   		"guideNumber": String,
+   		"guideservercity": String,
+   		"guidestar": int
    	}
    }
    ```
