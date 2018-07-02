@@ -52,21 +52,21 @@ if(!isIDNumberUsed($conn,$guideIDNumber)){
                                    uGuideId = '$guideId'
                                    where uTelephone = '$tel'";
                if ($conn->query($sql_update_user) === TRUE) {
-                   Response::json(1,"申请成为向导成功","");
+                   Response::json(1,urlencode("申请成为向导成功"),"");
                } else {
-                   Response::json(0,"更新用户信息出错".$conn->error,"");
+                   Response::json(0,urlencode("更新用户信息出错".$conn->error),"");
                }
            }else{
-               Response::json(0,"申请成为向导失败1，服务端错误:".$conn->error,"");
+               Response::json(0,urlencode("申请成为向导失败1，服务端错误:".$conn->error),"");
            }
         } else {
-            Response::json(0,"申请成为向导失败2，服务端错误:".$conn->error,"");
+            Response::json(0,urlencode("申请成为向导失败2，服务端错误:".$conn->error),"");
         }
     }else{
-        Response::json(0,"导游证已被使用","");
+        Response::json(0,urlencode("导游证已被使用"),"");
     }
 }else{
-    Response::json(0,"身份证已被使用","");
+    Response::json(0,urlencode("身份证已被使用"),"");
 }
 
 $conn->close();

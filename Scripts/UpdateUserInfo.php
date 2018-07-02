@@ -30,12 +30,12 @@ if($isUpdateHeadIcon == "update"){
                            uPassword = '$password'
                            where uTelephone = '$tel'";
             if ($conn->query($sql_update) === TRUE) {
-                Response::json(1,"修改成功","");
+                Response::json(1,urlencode("修改成功"),"");
             } else {
-                Response::json(0,"修改失败1，服务端错误:".$conn->error,"");
+                Response::json(0,urlencode("修改失败1，服务端错误:".$conn->error),"");
             }
         }else{
-            Response::json(0,"头像文件移动错误","");
+            Response::json(0,urlencode("头像文件移动错误"),"");
         }
     }
 }else{
@@ -46,9 +46,9 @@ if($isUpdateHeadIcon == "update"){
                    uPassword = '$password'
                    where uTelephone = '$tel'";
     if ($conn->query($sql_update) === TRUE) {
-        Response::json(1,"修改成功","");
+        Response::json(1,urlencode("修改成功"),"");
     } else {
-        Response::json(0,"修改失败2，服务端错误:".$conn->error,"");
+        Response::json(0,urlencode("修改失败2，服务端错误:".$conn->error),"");
     }
 }
 $conn->close();
