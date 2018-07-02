@@ -15,8 +15,8 @@ $update_guide_sql = "update guide set
                      gServerCity = '$guideServerCity'
                      where gIDNumber = '$guideIDNumber'";
 if ($conn->query($update_guide_sql) === TRUE) {
-    Response::json(1,urlencode("修改成功"),"");
+    Response::json(1,"Update success","");
 } else {
-    Response::json(0,urlencode("修改失败1，服务端错误:".$conn->error),"");
+    Response::json(0,"Update fail, server error: ".$conn->error,"");
 }
 $conn->close();

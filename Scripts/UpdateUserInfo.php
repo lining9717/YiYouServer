@@ -17,7 +17,7 @@ $isUpdateHeadIcon = str_replace('"','', $_POST['imageInfo']);
 
 if($isUpdateHeadIcon == "update"){
     if($_FILES["file"]["error"]>0){
-        Response::json(0,urlencode("头像文件传输错误：". $_FILES["file"]["error"]),"");
+        Response::json(0,urlencode("Image file error：". $_FILES["file"]["error"]),"");
     }else{
         $newfile= time().rand(1,1000).substr($_FILES["file"]["name"],strrpos($_FILES["file"]["name"],"."));
         $imagepath= "http://118.89.18.136/YiYou/image/".$newfile;
@@ -30,12 +30,12 @@ if($isUpdateHeadIcon == "update"){
                            uPassword = '$password'
                            where uTelephone = '$tel'";
             if ($conn->query($sql_update) === TRUE) {
-                Response::json(1,urlencode("修改成功"),"");
+                Response::json(1,"Update success","");
             } else {
-                Response::json(0,urlencode("修改失败1，服务端错误:".$conn->error),"");
+                Response::json(0,"Update fail 1, server error: ".$conn->error,"");
             }
         }else{
-            Response::json(0,urlencode("头像文件移动错误"),"");
+            Response::json(0,"Image file move error","");
         }
     }
 }else{
@@ -46,9 +46,9 @@ if($isUpdateHeadIcon == "update"){
                    uPassword = '$password'
                    where uTelephone = '$tel'";
     if ($conn->query($sql_update) === TRUE) {
-        Response::json(1,urlencode("修改成功"),"");
+        Response::json(1,"Update success","");
     } else {
-        Response::json(0,urlencode("修改失败2，服务端错误:".$conn->error),"");
+        Response::json(0,"Update fail 2, server error: ".$conn->error,"");
     }
 }
 $conn->close();

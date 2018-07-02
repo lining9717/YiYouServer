@@ -48,25 +48,25 @@ if(!isIDNumberUsed($conn,$guideIDNumber)){
                $row = $result_guideId->fetch_assoc();
                $guideId = $row['gId'];
                $sql_update_user = "update user set 
-                                   uIsGuide = '是',
+                                   uIsGuide = 'yes',
                                    uGuideId = '$guideId'
                                    where uTelephone = '$tel'";
                if ($conn->query($sql_update_user) === TRUE) {
-                   Response::json(1,urlencode("申请成为向导成功"),"");
+                   Response::json(1,"Become guide success","");
                } else {
-                   Response::json(0,urlencode("更新用户信息出错".$conn->error),"");
+                   Response::json(0,"update user information error".$conn->error,"");
                }
            }else{
-               Response::json(0,urlencode("申请成为向导失败1，服务端错误:".$conn->error),"");
+               Response::json(0,"Become guide fail 1, server error: ".$conn->error,"");
            }
         } else {
-            Response::json(0,urlencode("申请成为向导失败2，服务端错误:".$conn->error),"");
+            Response::json(0,"Become guide fail 2, server error:".$conn->error,"");
         }
     }else{
-        Response::json(0,urlencode("导游证已被使用"),"");
+        Response::json(0,"Guide number has been used","");
     }
 }else{
-    Response::json(0,urlencode("身份证已被使用"),"");
+    Response::json(0,"ID number has been used","");
 }
 
 $conn->close();

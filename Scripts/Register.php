@@ -30,13 +30,13 @@ if(!isTelUsed($conn,$tel)){
             "(uNickname,uTelephone,uSex,uHeadPhoto,uIntroduce,uIsGuide,uStars,uPassword,uGuideId) ".
             "values('$username','$tel','男','$imagepath','让旅行更简单','否',5,'$password',0)";
         if ($conn->query($sql_insert) === TRUE) {
-            Response::json(1,urlencode("注册成功"),"");
+            Response::json(1,"Register success","");
         } else {
-            Response::json(0,urlencode("注册失败1，服务端错误:".$conn->error),"");
+            Response::json(0,"Register fail 1 in server ".$conn->error,"");
         }
     }else{
         if($_FILES["file"]["error"]>0){
-            Response::json(0,urlencode("头像文件传输错误：". $_FILES["file"]["error"]),"");
+            Response::json(0,"Image file error：". $_FILES["file"]["error"],"");
         }else{
             $filename = $_FILES["file"]["name"];
             $newfile= time().rand(1,1000).substr($filename,strrpos($filename,"."));
@@ -44,22 +44,22 @@ if(!isTelUsed($conn,$tel)){
             if(move_uploaded_file($_FILES["file"]["tmp_name"], "image/".$newfile)){
                 $sql_insert = "insert into user".
                     "(uNickname,uTelephone,uSex,uHeadPhoto,uIntroduce,uIsGuide,uStars,uPassword,uGuideId) ".
-                    "values('$username','$tel','男','$imagepath','让旅行更简单','否',5,'$password',0)";
+                    "values('$username','$tel','男','$imagepath','让旅行更简单','yes',5,'$password',0)";
                 if ($conn->query($sql_insert) === TRUE) {
-                    Response::json(1,urlencode("注册成功"),"");
+                    Response::json(1,"Register success","");
                 } else {
-                    Response::json(0,urlencode("注册失败2，服务端错误:".$conn->error),"");
+                    Response::json(0,"Register fail 2 in server ".$conn->error,"");
                 }
             }else{
-                Response::json(0,urlencode("头像文件移动错误(imageInfo:".$headImage.
+                Response::json(0,"Image file move error (imageInfo:".$headImage.
                     ",username:".$username.
                     ",image:".$filename.
-                    ",imagepath:".$imagepath.")"),"");
+                    ",imagepath:".$imagepath.")","");
             }
         }
     }
 }else{
-    Response::json(0,urlencode("手机号码已被使用"),"");
+    Response::json(0,"Telephone has been used","");
 }
 $conn->close();
 
