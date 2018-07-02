@@ -13,22 +13,52 @@ $tel = str_replace('"','', $_POST['tel']);
 
 $sql_login = "select * from user where uTelephone = '$tel'";
 
-$result = $conn->query($sql_login);
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    if ($password == $row['uPassword']) {
-        $data = array(
-            "nickname" => $row['uNickname'],
-            "telephone" => $row['uTelephone'],
-            "sex" => $row['uSex'],
-            "headphoto" => $row['uHeadPhoto'],
-            "introduce" => $row['uIntroduce'],
-            "isguide" => $row['uIsGuide'],
-            "guideid" => $row['uGuideId'],
-            "star" => $row['uStars'],
-            "password" => $row['uPassword']
-        );
-        Response::json(1, "登录成功", $data);
+$result_login = $conn->query($sql_login);
+if ($result_login->num_rows > 0) {
+    $row_login = $result_login->fetch_assoc();
+    if ($password == $row_login['uPassword']) {
+        if($row_login['uIsGuide'] == '否'){
+            $data = array(
+                "nickname" => $row_login['uNickname'],
+                "telephone" => $row_login['uTelephone'],
+                "sex" => $row_login['uSex'],
+                "headphoto" => $row_login['uHeadPhoto'],
+                "introduce" => $row_login['uIntroduce'],
+                "isguide" => $row_login['uIsGuide'],
+                "guideid" => $row_login['uGuideId'],
+                "star" => $row_login['uStars'],
+                "password" => $row_login['uPassword'],
+                "guiderealname"=>" ",
+                "guideIDnumbr"=>" ",
+                "guideNumber"=>" ",
+                "guideservercity"=>" ",
+                "guidestar"=>" "
+            );
+            Response::json(1, "登录成功", $data);
+        }else{
+            $sql_get_guide_info = "select * from guide where gId = ".$row_login['uGuideId'];
+            $result_guideInfo = $conn->query($sql_get_guide_info);
+            if($result_guideInfo->num_rows>0){
+                $row_guideInfo = $result_guideInfo->fetch_assoc();
+                $data = array(
+                    "nickname" => $row_login['uNickname'],
+                    "telephone" => $row_login['uTelephone'],
+                    "sex" => $row_login['uSex'],
+                    "headphoto" => $row_login['uHeadPhoto'],
+                    "introduce" => $row_login['uIntroduce'],
+                    "isguide" => $row_login['uIsGuide'],
+                    "guideid" => $row_login['uGuideId'],
+                    "star" => $row_login['uStars'],
+                    "password" => $row_login['uPassword'],
+                    "guiderealname"=>$row_guideInfo['gRealName'],
+                    "guideIDnumbr"=>$row_guideInfo['gIDNumber'],
+                    "guideNumber"=>$row_guideInfo['gGuideNumber'],
+                    "guideservercity"=>$row_guideInfo['gServerCity'],
+                    "guidestar"=>$row_guideInfo['gStars']
+                );
+                Response::json(1, "登录成功", $data);
+            }
+        }
     } else {
         $data = array(
             "nickname" => "error password",
@@ -39,7 +69,12 @@ if ($result->num_rows > 0) {
             "isguide" => "error password",
             "guideid" => 0,
             "star" => 0,
-            "password" => "error password"
+            "password" => "error password",
+            "guiderealname"=>"error password",
+            "guideIDnumbr"=>"error password",
+            "guideNumber"=>"error password",
+            "guideservercity"=>"error password",
+            "guidestar"=>"error password"
         );
         Response::json(0, "密码错误", $data);
     }
@@ -53,7 +88,13 @@ if ($result->num_rows > 0) {
         "isguide" => "empty telephone",
         "guideid" => 0,
         "star" => 0,
-        "password" => "empty telephone"
+        "password" => "empty telephone",
+        "password" => "empty telephone",
+        "guiderealname"=>"empty telephone",
+        "guideIDnumbr"=>"empty telephone",
+        "guideNumber"=>"empty telephone",
+        "guideservercity"=>"empty telephone",
+        "guidestar"=>"empty telephone"
     );
     Response::json(0, "账户不存在", $data);
 }
