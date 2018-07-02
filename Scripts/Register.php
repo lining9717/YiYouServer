@@ -28,7 +28,7 @@ if(!isTelUsed($conn,$tel)){
         $imagepath = "http://118.89.18.136/YiYou/image/default.png";
         $sql_insert = "insert into user".
             "(uNickname,uTelephone,uSex,uHeadPhoto,uIntroduce,uIsGuide,uStars,uPassword,uGuideId) ".
-            "values('$username','$tel','男','$imagepath','让旅行更简单','否',5,'$password',0)";
+            "values('$username','$tel','男','$imagepath','让旅行更简单','no',5,'$password',0)";
         if ($conn->query($sql_insert) === TRUE) {
             Response::json(1,"Register success","");
         } else {
@@ -44,7 +44,7 @@ if(!isTelUsed($conn,$tel)){
             if(move_uploaded_file($_FILES["file"]["tmp_name"], "image/".$newfile)){
                 $sql_insert = "insert into user".
                     "(uNickname,uTelephone,uSex,uHeadPhoto,uIntroduce,uIsGuide,uStars,uPassword,uGuideId) ".
-                    "values('$username','$tel','男','$imagepath','让旅行更简单','yes',5,'$password',0)";
+                    "values('$username','$tel','男','$imagepath','让旅行更简单','no',5,'$password',0)";
                 if ($conn->query($sql_insert) === TRUE) {
                     Response::json(1,"Register success","");
                 } else {

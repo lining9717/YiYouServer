@@ -23,7 +23,7 @@ if($result_user->num_rows>0){
     $sql_release_order = "insert into `order`".
                           "(oStatus,oUserId,oGuideId,oPlace,oDate,oNumberOfPeople,oDescription,".
                           "oToUserStar,oToGuideStar,oUserNickname,oGuideRealName) ".
-                          "values('idle','$userId',0,'$place','$date','$numberOfPeople','$description',".
+                          "values('idle','$userId',0,'$place','$date',$numberOfPeople,'$description',".
                           "0,0,'$userNickname','no')";
     if ($conn->query($sql_release_order) === TRUE) {
         Response::json(1,"Release success","");
