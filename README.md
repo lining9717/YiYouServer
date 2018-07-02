@@ -178,3 +178,35 @@
    |    code    |  int   | 若为1，代表成功；<br/>否则为不成功 |
    |  message   | String |         返回的状态信息说明         |
    |    data    | String |        不返回结果集，为空；        |
+
+6. 用户发布订单接口
+
+   请求类型：POST请求
+
+   URL地址：http://118.89.18.136/YiYou/ReleaseOrder.php
+
+   参数：
+
+   |    参数名称    | 参数类型 |               说明               |
+   | :------------: | :------: | :------------------------------: |
+   |      tel       |  String  |       用户手机号，不可为空       |
+   |     place      |  String  |         目的地，不可为空         |
+   |      date      |  String  | 日期，不可为空，格式为YYYY-MM-DD |
+   | numberOfPeople |   int    |        同行人数，不可为空        |
+   |  description   |  String  |          备注，不可为空          |
+
+   返回结果：Json格式如下
+
+      ```
+      {
+      	"code": ,
+      	"message": ,
+      	"data": ""
+      }
+      ```
+
+   | Json数据项 |  类型  |                说明                |
+   | :--------: | :----: | :--------------------------------: |
+   |    code    |  int   | 若为1，代表成功；<br/>否则为不成功 |
+   |  message   | String |         返回的状态信息说明         |
+   |    data    | String |        不返回结果集，为空；        |
