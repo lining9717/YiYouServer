@@ -17,7 +17,7 @@ $isUpdateHeadIcon = str_replace('"','', $_POST['imageInfo']);
 
 if($isUpdateHeadIcon == "update"){
     if($_FILES["file"]["error"]>0){
-        Response::json(0,"头像文件传输错误：". $_FILES["file"]["error"],"");
+        Response::json(0,urlencode("头像文件传输错误：". $_FILES["file"]["error"]),"");
     }else{
         $newfile= time().rand(1,1000).substr($_FILES["file"]["name"],strrpos($_FILES["file"]["name"],"."));
         $imagepath= "http://118.89.18.136/YiYou/image/".$newfile;
