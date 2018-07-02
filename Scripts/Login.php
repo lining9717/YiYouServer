@@ -34,7 +34,7 @@ if ($result_login->num_rows > 0) {
                 "guideservercity"=>" ",
                 "guidestar"=>" "
             );
-            Response::json(1, "登录成功", $data);
+            Response::json(1, urlencode("登录成功"), $data);
         }else{
             $sql_get_guide_info = "select * from guide where gId = ".$row_login['uGuideId'];
             $result_guideInfo = $conn->query($sql_get_guide_info);
@@ -56,7 +56,7 @@ if ($result_login->num_rows > 0) {
                     "guideservercity"=>$row_guideInfo['gServerCity'],
                     "guidestar"=>$row_guideInfo['gStars']
                 );
-                Response::json(1, "登录成功", $data);
+                Response::json(1, urlencode("登录成功"), $data);
             }
         }
     } else {
@@ -76,7 +76,7 @@ if ($result_login->num_rows > 0) {
             "guideservercity"=>"error password",
             "guidestar"=>"error password"
         );
-        Response::json(0, "密码错误", $data);
+        Response::json(0, urlencode("密码错误"), $data);
     }
 } else {
     $data = array(
@@ -96,7 +96,7 @@ if ($result_login->num_rows > 0) {
         "guideservercity"=>"empty telephone",
         "guidestar"=>"empty telephone"
     );
-    Response::json(0, "账户不存在", $data);
+    Response::json(0, urlencode("账户不存在"), $data);
 }
 $conn->close();
 

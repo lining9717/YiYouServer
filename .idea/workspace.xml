@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02121d3e-bbaa-480b-9481-b637f059aaf2" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Connect.php" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Scripts/BecomeGuide.php" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/BecomeGuide.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Connect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Register.php" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/UpdateGuideInfo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/UpdateGuideInfo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/UpdateUserInfo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/UpdateUserInfo.php" afterDir="false" />
+>>>>>>> dd0d3276eda4ed87125aeeaca65f52743ee2fc1c
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +41,11 @@
         <entry file="file://$PROJECT_DIR$/Scripts/BecomeGuide.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="395">
+<<<<<<< HEAD
               <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+=======
+              <caret line="49" column="51" lean-forward="true" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+>>>>>>> dd0d3276eda4ed87125aeeaca65f52743ee2fc1c
             </state>
           </provider>
         </entry>
@@ -41,7 +54,11 @@
         <entry file="file://$PROJECT_DIR$/Scripts/UpdateGuideInfo.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
+<<<<<<< HEAD
               <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+=======
+              <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+>>>>>>> dd0d3276eda4ed87125aeeaca65f52743ee2fc1c
             </state>
           </provider>
         </entry>
@@ -58,8 +75,13 @@
       <file leaf-file-name="Login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/Login.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="432">
               <caret line="98" column="29" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
+=======
+            <state relative-caret-position="1581">
+              <caret line="98" column="40" selection-start-line="98" selection-start-column="40" selection-end-line="98" selection-end-column="40" />
+>>>>>>> dd0d3276eda4ed87125aeeaca65f52743ee2fc1c
             </state>
           </provider>
         </entry>
@@ -67,8 +89,13 @@
       <file leaf-file-name="Connect.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scripts/Connect.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="15">
               <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+=======
+            <state relative-caret-position="408">
+              <caret line="29" column="30" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="30" />
+>>>>>>> dd0d3276eda4ed87125aeeaca65f52743ee2fc1c
             </state>
           </provider>
         </entry>
@@ -76,17 +103,27 @@
       <file leaf-file-name="Register.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/Register.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="347">
               <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+=======
+            <state relative-caret-position="582">
+              <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+>>>>>>> dd0d3276eda4ed87125aeeaca65f52743ee2fc1c
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UpdateUserInfo.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UpdateUserInfo.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scripts/UpdateUserInfo.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-241">
               <caret line="19" column="67" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
+=======
+            <state relative-caret-position="714">
+              <caret line="47" column="45" lean-forward="true" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+>>>>>>> dd0d3276eda4ed87125aeeaca65f52743ee2fc1c
             </state>
           </provider>
         </entry>
@@ -118,17 +155,20 @@
         <option value="$PROJECT_DIR$/CreateCollectedGuideTable.php" />
         <option value="$PROJECT_DIR$/CreateCollectedEssayTable.php" />
         <option value="$PROJECT_DIR$/Login.php" />
-        <option value="$PROJECT_DIR$/Scripts/Register.php" />
         <option value="$PROJECT_DIR$/CreateTables/CreateBowenImageTable.php" />
         <option value="$PROJECT_DIR$/CreateTables/CreateBowenTable.php" />
         <option value="$PROJECT_DIR$/Scripts/ModifyUserInfo.php" />
-        <option value="$PROJECT_DIR$/Scripts/UpdateUserInfo.php" />
-        <option value="$PROJECT_DIR$/Scripts/BecomeGuide.php" />
-        <option value="$PROJECT_DIR$/Scripts/UpdateGuideInfo.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Scripts/ReleaseOrder.php" />
         <option value="$PROJECT_DIR$/Scripts/Login.php" />
         <option value="$PROJECT_DIR$/Scripts/Connect.php" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/Scripts/Register.php" />
+        <option value="$PROJECT_DIR$/Scripts/BecomeGuide.php" />
+        <option value="$PROJECT_DIR$/Scripts/UpdateGuideInfo.php" />
+        <option value="$PROJECT_DIR$/Scripts/UpdateUserInfo.php" />
+>>>>>>> dd0d3276eda4ed87125aeeaca65f52743ee2fc1c
       </list>
     </option>
   </component>
@@ -228,12 +268,16 @@
       <workItem from="1530147172220" duration="20913000" />
       <workItem from="1530233084258" duration="22000000" />
       <workItem from="1530413222755" duration="5596000" />
-      <workItem from="1530492885463" duration="2472000" />
+      <workItem from="1530492885463" duration="3115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="68256000" />
+=======
+    <option name="totallyTimeSpent" value="68522000" />
+>>>>>>> dd0d3276eda4ed87125aeeaca65f52743ee2fc1c
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -247,7 +291,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14588688" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14588688" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289256" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -256,7 +300,11 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289256" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.28429753" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5128901" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.16553596" />
+>>>>>>> dd0d3276eda4ed87125aeeaca65f52743ee2fc1c
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -569,6 +617,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Scripts/UpdateUserInfo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-241">
@@ -576,6 +625,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> dd0d3276eda4ed87125aeeaca65f52743ee2fc1c
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -586,24 +637,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/UpdateGuideInfo.php">
+    <entry file="file://$PROJECT_DIR$/Scripts/Connect.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="238">
           <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+=======
+        <state relative-caret-position="408">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="98" column="40" selection-start-line="98" selection-start-column="40" selection-end-line="98" selection-end-column="40" />
+>>>>>>> dd0d3276eda4ed87125aeeaca65f52743ee2fc1c
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/BecomeGuide.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="395">
           <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+=======
+        <state relative-caret-position="582">
+          <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+>>>>>>> dd0d3276eda4ed87125aeeaca65f52743ee2fc1c
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/ReleaseOrder.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="85">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
+=======
+        <state relative-caret-position="395">
+          <caret line="49" column="51" lean-forward="true" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+>>>>>>> dd0d3276eda4ed87125aeeaca65f52743ee2fc1c
         </state>
       </provider>
     </entry>
@@ -617,8 +690,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Login.php">
+    <entry file="file://$PROJECT_DIR$/Scripts/UpdateGuideInfo.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="432">
           <caret line="98" column="29" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
         </state>
@@ -628,6 +702,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+=======
+        <state relative-caret-position="238">
+          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/UpdateUserInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="47" column="45" lean-forward="true" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+>>>>>>> dd0d3276eda4ed87125aeeaca65f52743ee2fc1c
         </state>
       </provider>
     </entry>
