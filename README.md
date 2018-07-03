@@ -26,7 +26,7 @@
    		"sex": String,
    		"headphoto": String,
    		"introduce": String,
-   		"isguide": String,
+   		"isguide": String,（只有yes和no，yes代表是导游，no代表不是导游）
    		"guideid": int,
    		"star": int,
    		"password": String
@@ -210,3 +210,47 @@
    |    code    |  int   | 若为1，代表成功；<br/>否则为不成功 |
    |  message   | String |         返回的状态信息说明         |
    |    data    | String |        不返回结果集，为空；        |
+
+7. 获取用户未完成订单信息接口
+
+   请求类型：POST请求
+
+   URL地址：http://118.89.18.136/YiYou/GetUserUnfinishedOrders.php
+
+   参数：
+
+   | 参数名称 | 参数类型 |         说明         |
+   | :------: | :------: | :------------------: |
+   |   tel    |  String  | 用户手机号，不可为空 |
+
+   返回结果：Json格式如下
+
+   ```
+   {
+   	"code": int,
+   	"message": String,
+   	"data": [{
+   		"status": String,
+   		"place": String,
+   		"date": String,
+   		"numberOfPeople": int,
+   		"note": Strig,
+   		"userNickname": String
+   	},{
+   		"status": String,
+   		"place": String,
+   		"date": String,
+   		"numberOfPeople": int,
+   		"note": Strig,
+   		"userNickname": String
+   	},
+   	...
+   	]
+   }
+   ```
+
+   | Json数据项 |  类型  |                             说明                             |
+   | :--------: | :----: | :----------------------------------------------------------: |
+   |    code    |  int   |              若为1，代表成功；<br/>否则为不成功              |
+   |  message   | String |                      返回的状态信息说明                      |
+   |    data    | String | 具体返回类型见上图；<br/>status有四种状态:idle(闲置)、accepted(已被向导接单)、<br/>begin(用户选择了向导开始进行)、finished(已完成)；<br/>note代表用户对订单的备注 |
