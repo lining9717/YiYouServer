@@ -2,8 +2,8 @@
 /**
  * Created by PhpStorm.
  * User: lining
- * Date: 2018/7/2
- * Time: 15:42
+ * Date: 2018/7/4
+ * Time: 15:13
  */
 
 require_once('Connect.php');
@@ -15,8 +15,7 @@ $result_user_info = $conn->query($sql_get_user_info);
 if($result_user_info->num_rows>0){
     $row_user_info = $result_user_info->fetch_assoc();
     $userId = $row_user_info['uId'];
-    $sql_get_unfinished_oreders = "select * from `order` where oUserId = '$userId' ".
-                                  "and oStatus != 'finished'";
+    $sql_get_unfinished_oreders = "select * from `order` where oUserId = '$userId' and oStatus = 'begin'";
     $result_get_unfinished_order = $conn->query($sql_get_unfinished_oreders);
     if($result_get_unfinished_order->num_rows>0){
         $data = array();
@@ -32,9 +31,9 @@ if($result_user_info->num_rows>0){
             );
             array_push($data,$info);
         }
-        Response::json(1,"Get unfinished orders success",$data);
+        Response::json(1,"Get begin orders success",$data);
     }else{
-        Response::json(1,"No unfinished orders","");
+        Response::json(1,"No begin orders","");
     }
 }else{
     Response::json(0,"Account error","");
