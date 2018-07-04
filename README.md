@@ -217,7 +217,7 @@
 
    请求类型：POST请求
 
-   URL地址：http://118.89.18.136/YiYou/GetUserUnfinishedOrders.php
+   URL地址：http://118.89.18.136/YiYou/UserGetUnfinishedOrders.php
 
    参数：
 
@@ -265,7 +265,7 @@
 
    请求类型：POST请求
 
-   URL地址：http://118.89.18.136/YiYou/GetNearbyOrders.php
+   URL地址：http://118.89.18.136/YiYou/GuideGetNearbyOrders.php
 
    参数：
 

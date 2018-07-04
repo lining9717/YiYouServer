@@ -23,7 +23,6 @@ function isAccept($orderId,$guideId,$conn){
     return false;
 }
 
-
 $sql_get_guide_info = "select * from guide where gIDNumber = '$guideIDnumber'";
 $result_get_guide_info = $conn->query($sql_get_guide_info);
 
@@ -31,7 +30,7 @@ if($result_get_guide_info->num_rows>0){
     $row_get_guide_info = $result_get_guide_info->fetch_assoc();
     $guideId = $row_get_guide_info['gId'];
     $guideRealname = $row_get_guide_info['gRealName'];
-    if(!isAccept($orderId,&$guideId,$conn)){
+    if(!isAccept($orderId,$guideId,$conn)){
         $sql_accept_order = "insert into getorderguides".
             "(gogOrderId,gogGuideId,gogGuideName) ".
             "values($orderId,$guideId,'$guideRealname')";
