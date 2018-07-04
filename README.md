@@ -341,3 +341,49 @@
    说明：该接口会更新订单的状态信息，从“idle”更新为“accepted”状态
 
    ​
+
+10. 用户获取已接单向导信息接口
+
+  请求类型：POST请求
+
+  URL地址：http://118.89.18.136/YiYou/UserGetAcceptGuides.php
+
+  参数：
+
+  | 参数名称 | 参数类型 |       说明       |
+  | :------: | :------: | :--------------: |
+  | orderID  |   int    | 订单ID，不可为空 |
+
+  返回结果：Json格式如下
+
+  ```
+  {
+  	"code": ,
+  	"message": ,
+  	"data": [{
+  		"realname": String,
+  		"guideNumber": int,
+  		"servercity": String,
+  		"star": int
+  	}, {
+  		"realname": String,
+  		"guideNumber": int,
+  		"servercity": String,
+  		"star": int
+  	}，
+  	...
+  	]
+  }
+  ```
+
+  | Json数据项 |   类型   |                       说明                        |
+  | :--------: | :------: | :-----------------------------------------------: |
+  |    code    |   int    |        若为1，代表成功；<br/>否则为不成功         |
+  |  message   |  String  |                返回的状态信息说明                 |
+  |    data    | 自定义类 | 若无订单，data项为空；<br/>否则具体返回类型见上图 |
+
+  ​
+
+  ​
+
+  ​
