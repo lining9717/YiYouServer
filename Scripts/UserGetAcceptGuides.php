@@ -33,3 +33,4 @@ if($result_get_guides->num_rows>0){
     Response::json(0,"No guide information","");
 }
 
+$conn->close();
