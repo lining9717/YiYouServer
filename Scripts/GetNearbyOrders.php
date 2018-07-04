@@ -37,6 +37,7 @@ if($result_server_city->num_rows>0){
             }
             if($placecity == $city){
                 $info = array(
+                "orderID"=>$row_get_orders['oId'],
                 "status"=>$row_get_orders['oStatus'],
                 "place"=>$row_get_orders['oPlace'],
                 "date"=>$row_get_orders['oDate'],

@@ -232,6 +232,7 @@
    	"code": int,
    	"message": String,
    	"data": [{
+   		"orderID": int,
    		"status": String,
    		"place": String,
    		"date": String,
@@ -239,6 +240,7 @@
    		"note": Strig,
    		"userNickname": String
    	},{
+   		"orderID": int,
    		"status": String,
    		"place": String,
    		"date": String,
@@ -278,6 +280,7 @@
    	"code": int,
    	"message": String,
    	"data": [{
+   		"orderID": int,
    		"status": String,
    		"place": String,
    		"date": String,
@@ -285,6 +288,7 @@
    		"note": Strig,
    		"userNickname": String
    	},{
+   		"orderID": int,
    		"status": String,
    		"place": String,
    		"date": String,

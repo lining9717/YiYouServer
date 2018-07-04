@@ -22,6 +22,7 @@ if($result_user_info->num_rows>0){
         $data = array();
         while($row = $result_get_unfinished_order->fetch_assoc()){
             $info = array(
+                "orderID"=>$row['oId'],
                 "status"=>$row['oStatus'],
                 "place"=>$row['oPlace'],
                 "date"=>$row['oDate'],
