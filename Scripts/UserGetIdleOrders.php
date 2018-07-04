@@ -33,7 +33,7 @@ if($result_user_info->num_rows>0){
         }
         Response::json(1,"Get idle orders success",$data);
     }else{
-        Response::json(1,"No idle orders","");
+        Response::json(0,"No idle orders","");
     }
 }else{
     Response::json(0,"Account error","");

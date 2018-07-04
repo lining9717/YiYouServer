@@ -36,7 +36,7 @@ if($result_user_info->num_rows>0){
         if(empty($data)){
             Response::json(0,"No begin orders","");
         }else{
-            Response::json(0,"Get begin orders success",$data);
+            Response::json(1,"Get begin orders success",$data);
         }
     }else{
         Response::json(0,"No begin orders","");
