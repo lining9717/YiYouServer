@@ -14,6 +14,15 @@ $guideNumber = $_POST['guideNumber'];
 $sql_get_guide_information = "select * from guide where gGuideNumber='$guideNumber'";
 $result_get_guide_information = $conn->query($sql_get_guide_information);
 
+
+function deleteGogOrder($conn,$orderId){
+    $sql = "delete from getorderguides where gogOrderId = $orderId";
+    if ($conn->query($sql) === TRUE) {
+        return true;
+    }
+    return false;
+}
+
 if($result_get_guide_information->num_rows>0){
     $row_get_guide_information = $result_get_guide_information->fetch_assoc();
     $guideId = $row_get_guide_information['gId'];
@@ -23,8 +32,11 @@ if($result_get_guide_information->num_rows>0){
                          oGuideId = $guideId,
                          oGuideRealName = '$guideRealName'
                          where oId = $orderId";
-    if ($conn->query($sql_update_order) === TRUE) {
-        Response::json(1,"Order begin","");
+    if ($conn->query($sql_update_order) === TRUE ) {
+        if(deleteGogOrder($conn,$orderId))
+            Response::json(1,"Order begin","");
+        else
+            Response::json(0,"delete Gogorder fail","");
     } else {
         Response::json(0,"Fail, server fail:".$conn->error,"");
     }
