@@ -39,3 +39,4 @@ if($result_user_info->num_rows>0){
 }else{
     Response::json(0,"Account error","");
 }
+$conn->close();

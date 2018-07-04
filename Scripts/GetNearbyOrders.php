@@ -55,3 +55,4 @@ if($result_server_city->num_rows>0){
 }else{
     Response::json(0,"Get guide server city error","");
 }
+$conn->close();
