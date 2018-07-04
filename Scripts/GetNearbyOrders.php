@@ -22,7 +22,7 @@ if($result_server_city->num_rows>0){
     }else{
         $city = $arr1[1];
     }
-    $sql_get_orders = "select * from `order` where oStatus = 'idle'";
+    $sql_get_orders = "select * from `order` where oStatus = 'idle' or oStatus = 'accepted'";
     $result_get_orders = $conn->query($sql_get_orders);
     if($result_get_orders->num_rows>0){
         $data = array();
