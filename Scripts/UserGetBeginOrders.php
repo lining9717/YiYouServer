@@ -20,7 +20,7 @@ if($result_user_info->num_rows>0){
     if($result_get_unfinished_order->num_rows>0){
         $data = array();
         while($row = $result_get_unfinished_order->fetch_assoc()){
-            if($row['gStars'] == 0){
+            if($row['oToGuideStar'] == 0){
                 $info = array(
                     "orderID"=>$row['oId'],
                     "status"=>$row['oStatus'],
@@ -33,9 +33,13 @@ if($result_user_info->num_rows>0){
                 array_push($data,$info);
             }
         }
-        Response::json(1,"Get begin orders success",$data);
+        if(empty($data)){
+            Response::json(0,"No begin orders","");
+        }else{
+            Response::json(0,"Get begin orders success",$data);
+        }
     }else{
-        Response::json(1,"No begin orders","");
+        Response::json(0,"No begin orders","");
     }
 }else{
     Response::json(0,"Account error","");
