@@ -213,11 +213,17 @@
 
    ​
 
-7. **获取用户未完成订单信息接口**
+7. **获取用户订单信息接口**
 
    请求类型：POST请求
 
-   URL地址：http://118.89.18.136/YiYou/UserGetUnfinishedOrders.php
+   闲置（idle）订单URL地址：http://118.89.18.136/YiYou/UserGetIdleOrders.php
+
+   已接受（accepted）订单URL地址：http://118.89.18.136/YiYou/UserGetAcceptedOrders.php
+
+   正在进行（begin）订单URL地址：http://118.89.18.136/YiYou/UserGetBeginOrders.php
+
+   已完成（finished）订单URL地址：http://118.89.18.136/YiYou/UserGetFinishedOrders.php
 
    参数：
 
@@ -364,12 +370,16 @@
   		"realname": String,
   		"guideNumber": int,
   		"servercity": String,
-  		"star": int
+  		"star": int,
+  		"headphoto":String,
+  		"guideIntro":String
   	}, {
   		"realname": String,
   		"guideNumber": int,
   		"servercity": String,
-  		"star": int
+  		"star": int,
+  		"headphoto":String,
+  		"guideIntro":String
   	}，
   	...
   	]
