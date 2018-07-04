@@ -20,7 +20,7 @@ if($result_get_guide_info->num_rows>0){
     $guideRealname = $row_get_guide_info['gRealName'];
     $sql_accept_order = "insert into getorderguides".
                         "(gogOrderId,gogGuideId,gogGuideName) ".
-                        "values($orderId,$guideId,$guideRealname)";
+                        "values($orderId,$guideId,'$guideRealname')";
     if ($conn->query($sql_accept_order) === TRUE) {
         $sql_update_order_indo = "update `order` set 
                                  oStatus = 'accepted' 
