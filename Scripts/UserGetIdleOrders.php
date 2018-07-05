@@ -31,7 +31,11 @@ if($result_user_info->num_rows>0){
             );
             array_push($data,$info);
         }
-        Response::json(1,"Get idle orders success",$data);
+        if(empty($data)){
+            Response::json(0,"No idle orders","");
+        }else{
+            Response::json(1,"Get idle orders success",$data);
+        }
     }else{
         Response::json(0,"No idle orders","");
     }

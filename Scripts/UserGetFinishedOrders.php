@@ -6,8 +6,6 @@
  * Time: 9:45
  */
 
-require_once('Connect.php');
-
 $tel = $_POST['tel'];
 
 $sql_get_user_info = "select uId from user where  uTelephone = '$tel'";
@@ -20,18 +18,16 @@ if($result_user_info->num_rows>0){
     if($result_get_unfinished_order->num_rows>0){
         $data = array();
         while($row = $result_get_unfinished_order->fetch_assoc()){
-            if($row['oToGuideStar'] == 0){
-                $info = array(
-                    "orderID"=>$row['oId'],
-                    "status"=>$row['oStatus'],
-                    "place"=>$row['oPlace'],
-                    "date"=>$row['oDate'],
-                    "numberOfPeople"=>$row['oNumberOfPeople'],
-                    "note"=>$row["oDescription"],
-                    "userNickname"=>$row['oUserNickname']
-                );
-                array_push($data,$info);
-            }
+            $info = array(
+                "orderID"=>$row['oId'],
+                "status"=>$row['oStatus'],
+                "place"=>$row['oPlace'],
+                "date"=>$row['oDate'],
+                "numberOfPeople"=>$row['oNumberOfPeople'],
+                "note"=>$row["oDescription"],
+                "userNickname"=>$row['oUserNickname']
+            );
+            array_push($data,$info);
         }
         if(empty($data)){
             Response::json(0,"No finished orders","");
