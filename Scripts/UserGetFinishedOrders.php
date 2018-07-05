@@ -6,6 +6,8 @@
  * Time: 9:45
  */
 
+require_once('Connect.php');
+
 $tel = $_POST['tel'];
 
 $sql_get_user_info = "select uId from user where  uTelephone = '$tel'";
