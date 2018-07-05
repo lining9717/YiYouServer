@@ -26,7 +26,7 @@ if($result_get_userId->num_rows>0){
         $result_get_guide_headicon = $conn->query($sql_get_guide_headicon);
         if($result_get_guide_headicon->num_rows>0){
             $row_get_guide_headicon = $result_get_guide_headicon->fetch_assoc();
-            $guideHeadIcon = $row_get_guide_info['uHeadPhoto'];
+            $guideHeadIcon = $row_get_guide_headicon['uHeadPhoto'];
             $sql_collect = "insert into collectedguide".
                            "(cgGuideId,cgUserId,cgGuideRealName,cgGuideHeadIcon) ".
                            "values($guideId,$userId,'$guideRealname','$guideHeadIcon')";
