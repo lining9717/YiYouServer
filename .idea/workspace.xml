@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02121d3e-bbaa-480b-9481-b637f059aaf2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Scripts/GuideGetBeginOrders.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/GuideGetBeginOrders.php" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/GuideGetBeginOrders.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/Scripts/GuideGetAcceptedOrders.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="16" column="39" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="16" selection-end-column="39" />
+              <caret line="16" column="39" selection-start-line="15" selection-start-column="3" selection-end-line="16" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -49,8 +49,26 @@
       <file leaf-file-name="GuideGetBeginOrders.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scripts/GuideGetBeginOrders.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            <state relative-caret-position="255">
+              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Connect.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scripts/Connect.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuideAcceptOrder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scripts/GuideAcceptOrder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -64,20 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UpdateUserInfo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scripts/UpdateUserInfo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="50" column="74" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UserGetAcceptGuides.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/UserGetAcceptGuides.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+            <state relative-caret-position="612">
+              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -85,8 +94,8 @@
       <file leaf-file-name="UserGetIdleOrders.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/UserGetIdleOrders.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="527">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -94,17 +103,8 @@
       <file leaf-file-name="UserGetBeginOrders.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/UserGetBeginOrders.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="17" column="106" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="106" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GuideAcceptOrder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scripts/GuideAcceptOrder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="36" column="55" lean-forward="true" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+            <state relative-caret-position="578">
+              <caret line="39" column="9" selection-start-line="20" selection-start-column="7" selection-end-line="39" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -112,8 +112,8 @@
       <file leaf-file-name="UserGetAcceptedOrders.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/UserGetAcceptedOrders.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="33" column="60" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="60" />
+            <state relative-caret-position="476">
+              <caret line="33" column="60" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -187,6 +187,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,7 +204,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,12 +271,13 @@
       <workItem from="1530669938818" duration="19425000" />
       <workItem from="1530704860915" duration="72000" />
       <workItem from="1530705028636" duration="3990000" />
-      <workItem from="1530716646560" duration="4397000" />
+      <workItem from="1530716646560" duration="5024000" />
+      <workItem from="1530751299930" duration="291000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113010000" />
+    <option name="totallyTimeSpent" value="113928000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -288,10 +289,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22541603" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2281491" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289256" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -300,7 +301,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289256" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.45454547" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2644628" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26458615" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -547,13 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Connect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.php" />
     <entry file="file://$PROJECT_DIR$/Scripts/ReleaseOrder.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -597,13 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/GuideAcceptOrder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="36" column="55" lean-forward="true" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/UpdateUserInfo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -620,22 +607,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/UserGetAcceptedOrders.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="33" column="60" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="60" />
+        <state relative-caret-position="476">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/UserGetAcceptGuides.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        <state relative-caret-position="612">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/UserGetIdleOrders.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="527">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -649,21 +636,35 @@
     <entry file="file://$PROJECT_DIR$/Scripts/GuideGetAcceptedOrders.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="16" column="39" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="16" selection-end-column="39" />
+          <caret line="16" column="39" selection-start-line="15" selection-start-column="3" selection-end-line="16" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/UserGetBeginOrders.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="17" column="106" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="106" />
+        <state relative-caret-position="578">
+          <caret line="39" column="9" selection-start-line="20" selection-start-column="7" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/GuideAcceptOrder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/GuideGetBeginOrders.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state relative-caret-position="255">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
         </state>
       </provider>
     </entry>

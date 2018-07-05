@@ -6,6 +6,7 @@
  * Time: 0:14
  */
 
+require_once("Connect.php");
 $guideIDnumber = $_POST['guideIDNumber'];
 
 $sql_get_guideId = "select gId from guide where gIDNumber = '$guideIDnumber'";
@@ -39,7 +40,6 @@ if($result_get_guideId->num_rows>0){
     }else{
         Response::json(0,"No begin orders","");
     }
-
 }else{
     Response::json(0,"Guide ID number error","");
 }

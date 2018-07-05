@@ -267,11 +267,17 @@
 
    ​
 
-8. **向导获得服务城市订单信息接口**
+8. **向导获得订单信息接口**
 
    请求类型：POST请求
 
-   URL地址：http://118.89.18.136/YiYou/GuideGetNearbyOrders.php
+   向导获取服务城市订单信息URL地址：http://118.89.18.136/YiYou/GuideGetNearbyOrders.php
+
+   向导获取接受（accepted）订单信息接口：http://118.89.18.136/YiYou/GuideGetAcceptedOrders.php
+
+   向导获取正在进行（begin）订单信息接口：http://118.89.18.136/YiYou/GuideGetBeginOrders.php
+
+   向导获取已完成（finished）订单信息接口：http://118.89.18.136/YiYou/GuideGetFinishedOrders.php
 
    参数：
 
