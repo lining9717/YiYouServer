@@ -15,7 +15,7 @@ $result_user_info = $conn->query($sql_get_user_info);
 if($result_user_info->num_rows>0){
     $row_user_info = $result_user_info->fetch_assoc();
     $userId = $row_user_info['uId'];
-    $sql_get_unfinished_oreders = "select * from `order` where oUserId = '$userId' and oStatus = 'accepted'";
+    $sql_get_unfinished_oreders = "select * from `order` where oUserId = $userId and oStatus = 'accepted'";
     $result_get_unfinished_order = $conn->query($sql_get_unfinished_oreders);
     if($result_get_unfinished_order->num_rows>0){
         $data = array();

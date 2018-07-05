@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02121d3e-bbaa-480b-9481-b637f059aaf2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Scripts/UserGetFinishedOrders.php" afterDir="false" />
-    </list>
+    <list default="true" id="02121d3e-bbaa-480b-9481-b637f059aaf2" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +28,26 @@
       <file leaf-file-name="UserGetFinishedOrders.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scripts/UserGetFinishedOrders.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+            <state relative-caret-position="238">
+              <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuideGetFinishedOrders.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scripts/GuideGetFinishedOrders.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuideGetBeginOrders.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scripts/GuideGetBeginOrders.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="8" selection-start-line="8" selection-end-line="45" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -94,6 +110,7 @@
         <option value="$PROJECT_DIR$/Scripts/UserFinishOrder.php" />
         <option value="$PROJECT_DIR$/Scripts/GuideFinishOrder.php" />
         <option value="$PROJECT_DIR$/Scripts/UserGetFinishedOrders.php" />
+        <option value="$PROJECT_DIR$/Scripts/GuideGetFinishedOrders.php" />
       </list>
     </option>
   </component>
@@ -201,12 +218,12 @@
       <workItem from="1530704860915" duration="72000" />
       <workItem from="1530705028636" duration="3990000" />
       <workItem from="1530716646560" duration="5024000" />
-      <workItem from="1530751299930" duration="3325000" />
+      <workItem from="1530751299930" duration="3568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116962000" />
+    <option name="totallyTimeSpent" value="117205000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -227,8 +244,8 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289256" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.45454547" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26458615" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2281491" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26458615" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2281491" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -255,13 +272,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Scripts/Register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="51" column="17" lean-forward="true" selection-start-line="47" selection-start-column="16" selection-end-line="51" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/UpdateUserInfo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -541,13 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/GuideGetBeginOrders.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/GuideGetAcceptedOrders.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-222">
@@ -590,10 +593,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/GuideGetBeginOrders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" selection-start-line="8" selection-end-line="45" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/GuideGetFinishedOrders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/UserGetFinishedOrders.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+        <state relative-caret-position="238">
+          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
         </state>
       </provider>
     </entry>
