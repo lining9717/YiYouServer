@@ -28,7 +28,7 @@
       <file leaf-file-name="ReleaseBowen.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Bowen/ReleaseBowen.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="-204">
               <caret line="14" column="50" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="50" />
             </state>
           </provider>
@@ -154,7 +154,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP-7.1" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="287" />
     <option name="y" value="42" />
     <option name="width" value="1185" />
@@ -261,12 +261,12 @@
       <workItem from="1530716646560" duration="5024000" />
       <workItem from="1530751299930" duration="8281000" />
       <workItem from="1530760304067" duration="1663000" />
-      <workItem from="1530768383404" duration="11436000" />
+      <workItem from="1530768383404" duration="11707000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135017000" />
+    <option name="totallyTimeSpent" value="135288000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,7 +279,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18316196" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289256" />
@@ -674,7 +673,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bowen/ReleaseBowen.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="-204">
           <caret line="14" column="50" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="50" />
         </state>
       </provider>
