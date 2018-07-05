@@ -14,6 +14,7 @@ if($result_get_all_bowen->num_rows>0){
     $data = array();
     while($row_get_all_bowen = $result_get_all_bowen->fetch_assoc()){
         $info = array(
+            "bowenId"=>$row_get_all_bowen['bId'],
             "userId"=>$row_get_all_bowen['bUserId'],
             "userNickname"=>$row_get_all_bowen['bUserNickName'],
             "title"=>$row_get_all_bowen['bTitle'],
