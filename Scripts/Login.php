@@ -32,7 +32,7 @@ if ($result_login->num_rows > 0) {
                 "guideIDnumbr"=>" ",
                 "guideNumber"=>" ",
                 "guideservercity"=>" ",
-                "guidestar"=>" "
+                "guidestar"=>0
             );
             Response::json(1, "Login Success", $data);
         }else{
@@ -74,7 +74,7 @@ if ($result_login->num_rows > 0) {
             "guideIDnumbr"=>"error password",
             "guideNumber"=>"error password",
             "guideservercity"=>"error password",
-            "guidestar"=>"error password"
+            "guidestar"=> 0
         );
         Response::json(0, "Password incorrect", $data);
     }
@@ -94,7 +94,7 @@ if ($result_login->num_rows > 0) {
         "guideIDnumbr"=>"empty telephone",
         "guideNumber"=>"empty telephone",
         "guideservercity"=>"empty telephone",
-        "guidestar"=>"empty telephone"
+        "guidestar"=> 0
     );
     Response::json(0, "Account doesn't exist", $data);
 }
