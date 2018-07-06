@@ -27,7 +27,6 @@ if($result_get_all_bowen->num_rows>0){
             "title"=>$row_get_all_bowen['bTitle'],
             "content"=>$row_get_all_bowen['bBody'],
             "ZanNumber"=>$row_get_all_bowen['bZanNumber'],
-            "commentID"=>$row_get_all_bowen['bCommentId'],
             "collectedNumber"=>$row_get_all_bowen['bCollectNumber'],
             "time"=>$row_get_all_bowen['bTime'],
             "image"=>$row_get_all_bowen['bImage'],

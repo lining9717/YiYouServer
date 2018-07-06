@@ -22,8 +22,8 @@ if($result_get_user_info->num_rows>0){
     $userNickname = $row_get_user_info['uNickname'];
     if($imageInfo == 'no'){
         $sql_release_bowen = "insert into bowen".
-                             "(bUserId,bUserNickName,bTitle,bBody,bZanNumber,bCommentId,bCollectNumber,bTime,bImage) ".
-                             "values($userId,'$userNickname','$title','$content',0,0,0,'$time','no')";
+                             "(bUserId,bUserNickName,bTitle,bBody,bZanNumber,bCollectNumber,bTime,bImage) ".
+                             "values($userId,'$userNickname','$title','$content',0,0,'$time','no')";
         if ($conn->query($sql_release_bowen) === TRUE) {
             Response::json(1,"Release bowen success","");
         } else {
