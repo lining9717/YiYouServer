@@ -10,7 +10,7 @@ require_once ('Connect.php');
 
 $bowenId = $_POST['bowenId'];
 
-$sql_get_comments = "select * from cBowenId = $bowenId";
+$sql_get_comments = "select * from comment where cBowenId = $bowenId";
 $result_get_comments = $conn->query($sql_get_comments);
 if($result_get_comments->num_rows>0){
     $data = array();
