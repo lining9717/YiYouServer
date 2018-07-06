@@ -9,7 +9,7 @@
 require_once('Connect.php');
 $tel = $_POST['tel'];
 
-$sql_get_userId = "select uId from user where uTelephone = '$tel'";
+$sql_get_userId = "select * from user where uTelephone = '$tel'";
 $result_get_userId = $conn->query($sql_get_userId);
 if($result_get_userId->num_rows>0){
     $row_get_userId = $result_get_userId->fetch_assoc();
@@ -26,6 +26,7 @@ if($result_get_userId->num_rows>0){
                 "ZanNumber"=>$row_get_user_own_bowen['bZanNumber'],
                 "collectedNumber"=>$row_get_user_own_bowen['bCollectNumber'],
                 "time"=>$row_get_user_own_bowen['bTime'],
+                "userheadIcon"=>$row_get_userId['uHeadPhoto']
             );
             array_push($data,$info);
         }
