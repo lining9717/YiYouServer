@@ -21,13 +21,18 @@ if($result_get_userId->num_rows>0){
     if($result_get_bowen_info->num_rows>0){
         $row_get_bowen_info= $result_get_bowen_info->fetch_assoc();
         $bowenTitle= $row_get_bowen_info['bTitle'];
-        $sql_collect_bowen = "insert into collectedessay".
-                              "(ceBowenId,ceUserId,ceBowenTitle) ".
-                              "values($bowenId,$userId,'$bowenTitle')";
-        if ($conn->query($sql_collect_bowen) === TRUE) {
-            Response::json(1,"Collect success","");
-        } else {
-            Response::json(0,"Collect fail in server ".$conn->error,"");
+        $bowenUserId = $row_get_bowen_info['bUserId'];
+        if($bowenUserId != $userId){
+            $sql_collect_bowen = "insert into collectedessay".
+                "(ceBowenId,ceUserId,ceBowenTitle) ".
+                "values($bowenId,$userId,'$bowenTitle')";
+            if ($conn->query($sql_collect_bowen) === TRUE) {
+                Response::json(1,"Collect success","");
+            } else {
+                Response::json(0,"Collect fail in server ".$conn->error,"");
+            }
+        }else{
+            Response::json(0,"You can collect your own blog ","");
         }
     }else{
         Response::json(0,"Get bowen information error: ".$conn->error,"");
