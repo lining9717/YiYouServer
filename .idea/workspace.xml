@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02121d3e-bbaa-480b-9481-b637f059aaf2" name="Default" comment="" />
+    <list default="true" id="02121d3e-bbaa-480b-9481-b637f059aaf2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Bowen/UserGetOwnBowen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,17 +31,26 @@
       <file leaf-file-name="GetAllBowen.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bowen/GetAllBowen.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="36" />
+            <state relative-caret-position="302">
+              <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LikeBowen.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LikeBowen.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bowen/LikeBowen.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="374">
+              <caret line="27" column="57" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserGetOwnBowen.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bowen/UserGetOwnBowen.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -46,8 +58,8 @@
       <file leaf-file-name="ReleaseBowen.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bowen/ReleaseBowen.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="46" column="17" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="46" selection-end-column="17" />
+            <state relative-caret-position="51">
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -110,6 +122,7 @@
         <option value="$PROJECT_DIR$/Scripts/Login.php" />
         <option value="$PROJECT_DIR$/Bowen/GetAllBowen.php" />
         <option value="$PROJECT_DIR$/Bowen/LikeBowen.php" />
+        <option value="$PROJECT_DIR$/Bowen/UserGetOwnBowen.php" />
       </list>
     </option>
   </component>
@@ -120,7 +133,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP-7.1" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="287" />
     <option name="y" value="42" />
     <option name="width" value="1185" />
@@ -224,12 +237,12 @@
       <workItem from="1530760304067" duration="1663000" />
       <workItem from="1530768383404" duration="13956000" />
       <workItem from="1530801516256" duration="2889000" />
-      <workItem from="1530837382953" duration="1113000" />
+      <workItem from="1530837382953" duration="2201000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141539000" />
+    <option name="totallyTimeSpent" value="142627000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -241,10 +254,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="287" y="42" width="1185" height="827" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26044443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18830334" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289256" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -253,7 +266,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289256" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.45454547" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23837209" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22252375" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -300,13 +313,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CreateTables/CreateGuiderTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/Register.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -621,24 +627,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bowen/ReleaseBowen.php">
+    <entry file="file://$PROJECT_DIR$/Bowen/GetAllBowen.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="46" column="17" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="46" selection-end-column="17" />
+        <state relative-caret-position="302">
+          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bowen/GetAllBowen.php">
+    <entry file="file://$PROJECT_DIR$/Bowen/ReleaseBowen.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="36" />
+        <state relative-caret-position="51">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bowen/LikeBowen.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="374">
+          <caret line="27" column="57" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bowen/UserGetOwnBowen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
         </state>
       </provider>
     </entry>
