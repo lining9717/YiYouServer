@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02121d3e-bbaa-480b-9481-b637f059aaf2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Bowen/UserComments.php" beforeDir="false" afterPath="$PROJECT_DIR$/Bowen/UserComments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bowen/GetBowenComments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,11 +28,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserComments.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserComments.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bowen/UserComments.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="314">
+              <caret line="33" selection-start-line="33" selection-end-line="33" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetBowenComments.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bowen/GetBowenComments.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReleaseBowen.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bowen/ReleaseBowen.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="30" column="9" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="30" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -76,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CreateDatabase.php" />
         <option value="$PROJECT_DIR$/CreateUserTable.php" />
         <option value="$PROJECT_DIR$/CreateGuiderTable.php" />
         <option value="$PROJECT_DIR$/Connect.php" />
@@ -127,6 +145,7 @@
         <option value="$PROJECT_DIR$/Bowen/ReleaseBowen.php" />
         <option value="$PROJECT_DIR$/Bowen/GetSelectedBowen.php" />
         <option value="$PROJECT_DIR$/Bowen/UserComments.php" />
+        <option value="$PROJECT_DIR$/Bowen/GetBowenComments.php" />
       </list>
     </option>
   </component>
@@ -160,11 +179,6 @@
               <item name="EasyTour_new" type="b2602c69:ProjectViewProjectNode" />
               <item name="EasyTour_new" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Bowen" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="EasyTour_new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyTour_new" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="CreateTables" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="EasyTour_new" type="b2602c69:ProjectViewProjectNode" />
@@ -251,12 +265,12 @@
       <workItem from="1530760304067" duration="1663000" />
       <workItem from="1530768383404" duration="13956000" />
       <workItem from="1530801516256" duration="2889000" />
-      <workItem from="1530837382953" duration="17424000" />
+      <workItem from="1530837382953" duration="18940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157850000" />
+    <option name="totallyTimeSpent" value="159366000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -327,13 +341,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CreateTables/CreateDatabase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/Login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -592,13 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bowen/ReleaseBowen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" column="82" lean-forward="true" selection-start-line="25" selection-start-column="82" selection-end-line="25" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bowen/GetSelectedBowen.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -662,10 +662,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Bowen/ReleaseBowen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Bowen/UserComments.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state relative-caret-position="314">
+          <caret line="33" selection-start-line="33" selection-end-line="33" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bowen/GetBowenComments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
         </state>
       </provider>
     </entry>
