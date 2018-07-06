@@ -21,15 +21,11 @@ if($result_get_userId->num_rows>0){
         while($row_get_user_own_bowen = $result_get_user_own_bowen->fetch_assoc()){
             $info = array(
                 "bowenId"=>$row_get_user_own_bowen['bId'],
-                "userId"=>$row_get_user_own_bowen['bUserId'],
                 "userNickname"=>$row_get_user_own_bowen['bUserNickName'],
                 "title"=>$row_get_user_own_bowen['bTitle'],
-                "content"=>$row_get_user_own_bowen['bBody'],
                 "ZanNumber"=>$row_get_user_own_bowen['bZanNumber'],
-                "commentID"=>$row_get_user_own_bowen['bCommentId'],
                 "collectedNumber"=>$row_get_user_own_bowen['bCollectNumber'],
                 "time"=>$row_get_user_own_bowen['bTime'],
-                "image"=>$row_get_user_own_bowen['bImage']
             );
             array_push($data,$info);
         }
