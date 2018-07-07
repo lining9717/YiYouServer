@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02121d3e-bbaa-480b-9481-b637f059aaf2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/GuideGetUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/GuideGetUser.php" afterDir="false" />
-    </list>
+    <list default="true" id="02121d3e-bbaa-480b-9481-b637f059aaf2" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -303,12 +300,12 @@
       <workItem from="1530801516256" duration="2889000" />
       <workItem from="1530837382953" duration="21496000" />
       <workItem from="1530875281087" duration="427000" />
-      <workItem from="1530927887367" duration="2430000" />
+      <workItem from="1530927887367" duration="2709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164779000" />
+    <option name="totallyTimeSpent" value="165058000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -321,7 +318,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="433" y="103" width="1185" height="827" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32266667" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289256" />
