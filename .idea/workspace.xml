@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02121d3e-bbaa-480b-9481-b637f059aaf2" name="Default" comment="" />
+    <list default="true" id="02121d3e-bbaa-480b-9481-b637f059aaf2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Scripts/GuideGetUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,17 +31,53 @@
       <file leaf-file-name="UserComments.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bowen/UserComments.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
+            <state relative-caret-position="476">
               <caret line="33" selection-start-line="33" selection-end-line="33" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetBowenComments.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GetBowenComments.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bowen/GetBowenComments.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="357">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="29" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuideGetUser.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Scripts/GuideGetUser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scripts/Login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="50" column="51" selection-start-line="43" selection-start-column="20" selection-end-line="50" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuideGetAcceptedOrders.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scripts/GuideGetAcceptedOrders.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserGetOwnBowen.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bowen/UserGetOwnBowen.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -46,8 +85,8 @@
       <file leaf-file-name="ReleaseBowen.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bowen/ReleaseBowen.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            <state relative-caret-position="425">
+              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -55,8 +94,8 @@
       <file leaf-file-name="GuideGetNearbyOrders.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/GuideGetNearbyOrders.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="48" column="61" lean-forward="true" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
+            <state relative-caret-position="731">
+              <caret line="48" column="61" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -65,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/Scripts/UserGetAcceptGuides.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
-              <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -73,7 +112,7 @@
       <file leaf-file-name="UserGetCollectBowen.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bowen/UserGetCollectBowen.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
+            <state relative-caret-position="833">
               <caret line="54" selection-start-line="54" selection-end-line="54" selection-end-column="15" />
             </state>
           </provider>
@@ -92,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CreateUserTable.php" />
         <option value="$PROJECT_DIR$/CreateGuiderTable.php" />
         <option value="$PROJECT_DIR$/Connect.php" />
         <option value="$USER_HOME$/Desktop/test.php" />
@@ -143,6 +181,7 @@
         <option value="$PROJECT_DIR$/Bowen/GetSelectedBowen.php" />
         <option value="$PROJECT_DIR$/Bowen/UserComments.php" />
         <option value="$PROJECT_DIR$/Bowen/GetBowenComments.php" />
+        <option value="$PROJECT_DIR$/Scripts/GuideGetUser.php" />
       </list>
     </option>
   </component>
@@ -154,8 +193,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP-7.1" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="287" />
-    <option name="y" value="42" />
+    <option name="x" value="433" />
+    <option name="y" value="103" />
     <option name="width" value="1185" />
     <option name="height" value="827" />
   </component>
@@ -262,12 +301,14 @@
       <workItem from="1530760304067" duration="1663000" />
       <workItem from="1530768383404" duration="13956000" />
       <workItem from="1530801516256" duration="2889000" />
-      <workItem from="1530837382953" duration="19183000" />
+      <workItem from="1530837382953" duration="21496000" />
+      <workItem from="1530875281087" duration="427000" />
+      <workItem from="1530927887367" duration="690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159609000" />
+    <option name="totallyTimeSpent" value="163039000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,10 +320,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18830334" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19349681" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289256" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -291,7 +332,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289256" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.45454547" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34464043" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.14503817" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -338,13 +379,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Scripts/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/Connect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -463,13 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/GuideGetAcceptedOrders.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/GuideGetBeginOrders.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -509,13 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="96" column="23" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -610,13 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bowen/UserGetOwnBowen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bowen/UserCollectBowen.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
@@ -640,43 +653,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bowen/UserGetCollectBowen.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
+        <state relative-caret-position="833">
           <caret line="54" selection-start-line="54" selection-end-line="54" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/UserGetAcceptGuides.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bowen/UserComments.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
+        <state relative-caret-position="476">
           <caret line="33" selection-start-line="33" selection-end-line="33" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bowen/ReleaseBowen.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="425">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/UserGetAcceptGuides.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bowen/UserGetOwnBowen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/GuideGetNearbyOrders.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="48" column="61" lean-forward="true" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
+        <state relative-caret-position="731">
+          <caret line="48" column="61" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/GuideGetAcceptedOrders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bowen/GetBowenComments.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="357">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="29" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="50" column="51" selection-start-line="43" selection-start-column="20" selection-end-line="50" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/GuideGetUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="22" />
         </state>
       </provider>
     </entry>
