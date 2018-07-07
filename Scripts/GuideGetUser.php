@@ -30,9 +30,25 @@ if($result_get_userId->num_rows>0){
         );
         Response::json(1,"Get user information success",$data);
     }else{
-        Response::json(0,"Get user info error","");
+        $data = array(
+            "nickname" => " ",
+            "telephone" => " ",
+            "sex" => " ",
+            "headphoto" => " ",
+            "introduce" => " ",
+            "star" => 0
+        );
+        Response::json(0,"Get user info error",$data);
     }
 }else{
-    Response::json(0,"Get user Id error","");
+    $data = array(
+        "nickname" => " ",
+        "telephone" => " ",
+        "sex" => " ",
+        "headphoto" => " ",
+        "introduce" => " ",
+        "star" => 0
+    );
+    Response::json(0,"Get user info error",$data);
 }
 $conn->close();
