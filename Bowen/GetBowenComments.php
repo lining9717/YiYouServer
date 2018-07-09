@@ -25,6 +25,14 @@ if($result_get_comments->num_rows>0){
     }
     Response::json(1,"Get comments success",$data);
 }else{
-    Response::json(0,"No comments","");
+    $data = array();
+    $info=array(
+        "content"=>" ",
+        "usernickname"=>" ",
+        "time"=>" ",
+        "userHeadicon"=>" ",
+    );
+    array_push($data,$info);
+    Response::json(0,"No comments",$data);
 }
 $conn->close();

@@ -33,14 +33,46 @@ if($result_get_guideId->num_rows>0){
             }
         }
         if(empty($data)){
-            Response::json(0,"No begin orders","");
+            $info = array(
+                "orderID"=>" ",
+                "status"=>" ",
+                "place"=>" ",
+                "date"=>" ",
+                "numberOfPeople"=>0,
+                "note"=>" ",
+                "userNickname"=>" "
+            );
+            array_push($data,$info);
+            Response::json(0,"No begin orders",$data);
         }else{
             Response::json(1,"Get begin orders success",$data);
         }
     }else{
-        Response::json(0,"No begin orders","");
+        $data=array();
+        $info = array(
+            "orderID"=>" ",
+            "status"=>" ",
+            "place"=>" ",
+            "date"=>" ",
+            "numberOfPeople"=>0,
+            "note"=>" ",
+            "userNickname"=>" "
+        );
+        array_push($data,$info);
+        Response::json(0,"No begin orders",$data);
     }
 }else{
-    Response::json(0,"Guide ID number error","");
+    $data=array();
+    $info = array(
+        "orderID"=>" ",
+        "status"=>" ",
+        "place"=>" ",
+        "date"=>" ",
+        "numberOfPeople"=>0,
+        "note"=>" ",
+        "userNickname"=>" "
+    );
+    array_push($data,$info);
+    Response::json(0,"Guide ID number error",$data);
 }
 $conn->close();

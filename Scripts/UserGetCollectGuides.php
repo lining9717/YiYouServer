@@ -40,14 +40,43 @@ if($result_get_userId->num_rows>0){
             }
         }
         if(empty($data)){
-            Response::json(0,"No collect guides","");
+            $info = array(
+                "guiderealname"=>" ",
+                "guideIDnumbr"=>" ",
+                "guideNumber"=>" ",
+                "guideservercity"=>" ",
+                "guidestar"=>0,
+                "guideHeadIcon"=>" "
+            );
+            array_push($data,$info);
+            Response::json(0,"No collect guides",$data);
         }else{
             Response::json(1,"Get collect guides success",$data);
         }
     }else{
-        Response::json(0,"No collect guides","");
+        $data=array();
+        $info = array(
+            "guiderealname"=>" ",
+            "guideIDnumbr"=>" ",
+            "guideNumber"=>" ",
+            "guideservercity"=>" ",
+            "guidestar"=>0,
+            "guideHeadIcon"=>" "
+        );
+        array_push($data,$info);
+        Response::json(0,"No collect guides",$data);
     }
 }else{
-    Response::json(0,"Get user id fail:".$conn->error,"");
+    $data=array();
+    $info = array(
+        "guiderealname"=>" ",
+        "guideIDnumbr"=>" ",
+        "guideNumber"=>" ",
+        "guideservercity"=>" ",
+        "guidestar"=>0,
+        "guideHeadIcon"=>" "
+    );
+    array_push($data,$info);
+    Response::json(0,"Get user id fail:".$conn->error,$data);
 }
 $conn->close();

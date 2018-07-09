@@ -33,9 +33,31 @@ if($result_user_info->num_rows>0){
         }
         Response::json(1,"Get accept orders success",$data);
     }else{
-        Response::json(1,"No accept orders","");
+        $data=array();
+        $info = array(
+            "orderID"=>" ",
+            "status"=>" ",
+            "place"=>" ",
+            "date"=>" ",
+            "numberOfPeople"=>0,
+            "note"=>" ",
+            "userNickname"=>" "
+        );
+        array_push($data,$info);
+        Response::json(1,"No accept orders",$data);
     }
 }else{
-    Response::json(0,"Account error","");
+    $data=array();
+    $info = array(
+        "orderID"=>" ",
+        "status"=>" ",
+        "place"=>" ",
+        "date"=>" ",
+        "numberOfPeople"=>0,
+        "note"=>" ",
+        "userNickname"=>" "
+    );
+    array_push($data,$info);
+    Response::json(0,"Account error",$data);
 }
 $conn->close();

@@ -32,6 +32,17 @@ if($result_get_all_bowen->num_rows>0){
     }
     Response::json(1,"Get all bowen success",$data);
 }else{
-    Response::json(0,"No bowen","");
+    $data = array();
+    $info = array(
+        "bowenId"=>" ",
+        "userNickname"=>" ",
+        "title"=>" ",
+        "ZanNumber"=>0,
+        "collectedNumber"=>0,
+        "time"=>" ",
+        "userheadIcon"=>" "
+    );
+    array_push($data,$info);
+    Response::json(0,"No bowen",$data);
 }
 $conn->close();

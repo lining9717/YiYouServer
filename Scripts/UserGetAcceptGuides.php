@@ -33,17 +33,45 @@ if($result_get_guides->num_rows>0){
                 );
                 array_push($data, $info);
             }else{
-                Response::json(0,"Get guide information fail","");
+                $info = array(
+                    "realname" => " ",
+                    "guideNumber" => " ",
+                    "servercity" => " ",
+                    "star" => 0,
+                    "headphoto" => " ",
+                    "guideIntro" => " "
+                );
+                array_push($data, $info);
+                Response::json(0,"Get guide information fail",$data);
                 return;
             }
         }else{
-            Response::json(0,"Get guide information fail","");
+            $info = array(
+                "realname" => " ",
+                "guideNumber" => " ",
+                "servercity" => " ",
+                "star" => 0,
+                "headphoto" => " ",
+                "guideIntro" => " "
+            );
+            array_push($data, $info);
+            Response::json(0,"Get guide information fail",$data);
             return;
         }
     }
     Response::json(1,"Get guide information success",$data);
 }else{
-    Response::json(0,"No guide information","");
+    $data = array();
+    $info = array(
+        "realname" => " ",
+        "guideNumber" => " ",
+        "servercity" => " ",
+        "star" => 0,
+        "headphoto" => " ",
+        "guideIntro" => " "
+    );
+    array_push($data, $info);
+    Response::json(0,"No guide information",$data);
 }
 
 $conn->close();

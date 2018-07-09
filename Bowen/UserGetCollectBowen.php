@@ -42,14 +42,46 @@ if($result_get_userId->num_rows>0){
             }
         }
         if(empty($data)){
-            Response::json(0,"No collect blog","");
+            $info = array(
+                "bowenId"=>" ",
+                "userNickname"=>" ",
+                "title"=>" ",
+                "ZanNumber"=>0,
+                "collectedNumber"=>0,
+                "time"=>" ",
+                "userheadIcon"=>" "
+            );
+            array_push($data,$info);
+            Response::json(0,"No collect blog",$data);
         }else{
             Response::json(1,"Get collect blog success",$data);
         }
     }else{
-        Response::json(0,"No collect blog","");
+        $data=array();
+        $info = array(
+            "bowenId"=>" ",
+            "userNickname"=>" ",
+            "title"=>" ",
+            "ZanNumber"=>0,
+            "collectedNumber"=>0,
+            "time"=>" ",
+            "userheadIcon"=>" "
+        );
+        array_push($data,$info);
+        Response::json(0,"No collect blog",$data);
     }
 }else{
-    Response::json(0,"Account error","");
+    $data=array();
+    $info = array(
+        "bowenId"=>"error",
+        "userNickname"=>"error",
+        "title"=>"error",
+        "ZanNumber"=>0,
+        "collectedNumber"=>0,
+        "time"=>"error",
+        "userheadIcon"=>"error"
+    );
+    array_push($data,$info);
+    Response::json(0,"Account error",$data);
 }
 $conn->close();

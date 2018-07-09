@@ -38,15 +38,47 @@ if($result_get_guideId->num_rows>0){
             }
         }
         if(empty($data)){
-            Response::json(0,"No accepted orders","");
+            $info=array(
+                "orderID"=>" ",
+                "status"=>" ",
+                "place"=>" ",
+                "date"=>" ",
+                "numberOfPeople"=>" ",
+                "note"=>" ",
+                "userNickname"=>" "
+            );
+            array_push($data,$info);
+            Response::json(0,"No accepted orders",$data);
         }else{
             Response::json(1,"Get accepted orders success",$data);
         }
     }else{
-        Response::json(0,"No accepted orders","");
+        $data=array();
+        $info=array(
+            "orderID"=>" ",
+            "status"=>" ",
+            "place"=>" ",
+            "date"=>" ",
+            "numberOfPeople"=>" ",
+            "note"=>" ",
+            "userNickname"=>" "
+        );
+        array_push($data,$info);
+        Response::json(0,"No accepted orders",$data);
     }
 }else{
-    Response::json(0,"Get guide Id fail, server error: ".$conn->error,"");
+    $data=array();
+    $info=array(
+        "orderID"=>" ",
+        "status"=>" ",
+        "place"=>" ",
+        "date"=>" ",
+        "numberOfPeople"=>" ",
+        "note"=>" ",
+        "userNickname"=>" "
+    );
+    array_push($data,$info);
+    Response::json(0,"Get guide Id fail, server error: ".$conn->error,$data);
 }
 
 

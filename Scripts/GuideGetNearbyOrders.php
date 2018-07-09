@@ -72,12 +72,45 @@ if ($result_server_city->num_rows > 0) {
             }
             Response::json(1, "Get nearby orders success", $data);
         } else {
-            Response::json(0, "No orders", "");
+            $data = array();
+            $info = array(
+                "orderID"=>" ",
+                "status"=>" ",
+                "place"=>" ",
+                "date"=>" ",
+                "numberOfPeople"=>0,
+                "note"=>" ",
+                "userNickname"=>" "
+            );
+            array_push($data,$info);
+            Response::json(0, "No orders", $data);
         }
     } else {
-        Response::json(0, "Get guide as user id error" . $conn->error, "");
+        $data = array();
+        $info = array(
+            "orderID"=>" ",
+            "status"=>" ",
+            "place"=>" ",
+            "date"=>" ",
+            "numberOfPeople"=>0,
+            "note"=>" ",
+            "userNickname"=>" "
+        );
+        array_push($data,$info);
+        Response::json(0, "Get guide as user id error" . $conn->error, $data);
     }
 } else {
-    Response::json(0, "Get guide server city error", "");
+    $data = array();
+    $info = array(
+        "orderID"=>" ",
+        "status"=>" ",
+        "place"=>" ",
+        "date"=>" ",
+        "numberOfPeople"=>0,
+        "note"=>" ",
+        "userNickname"=>" "
+    );
+    array_push($data,$info);
+    Response::json(0, "Get guide server city error", $data);
 }
 $conn->close();

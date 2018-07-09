@@ -32,14 +32,46 @@ if($result_user_info->num_rows>0){
             array_push($data,$info);
         }
         if(empty($data)){
-            Response::json(0,"No finished orders","");
+            $info = array(
+                "orderID"=>" ",
+                "status"=>" ",
+                "place"=>" ",
+                "date"=>" ",
+                "numberOfPeople"=>0,
+                "note"=>" ",
+                "userNickname"=>" "
+            );
+            array_push($data,$info);
+            Response::json(0,"No finished orders",$data);
         }else{
             Response::json(1,"Get finished orders success",$data);
         }
     }else{
-        Response::json(0,"No finished orders","");
+        $data=array();
+        $info = array(
+            "orderID"=>" ",
+            "status"=>" ",
+            "place"=>" ",
+            "date"=>" ",
+            "numberOfPeople"=>0,
+            "note"=>" ",
+            "userNickname"=>" "
+        );
+        array_push($data,$info);
+        Response::json(0,"No finished orders",$data);
     }
 }else{
-    Response::json(0,"Account error","");
+    $data=array();
+    $info = array(
+        "orderID"=>" ",
+        "status"=>" ",
+        "place"=>" ",
+        "date"=>" ",
+        "numberOfPeople"=>0,
+        "note"=>" ",
+        "userNickname"=>" "
+    );
+    array_push($data,$info);
+    Response::json(0,"Account error",$data);
 }
 $conn->close();
