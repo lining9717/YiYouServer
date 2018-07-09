@@ -48,8 +48,17 @@
       <file leaf-file-name="Login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/Login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
+            <state relative-caret-position="561">
               <caret line="50" column="51" selection-start-line="43" selection-start-column="20" selection-end-line="50" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Register.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scripts/Register.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -72,20 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReleaseBowen.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bowen/ReleaseBowen.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GuideGetNearbyOrders.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scripts/GuideGetNearbyOrders.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="39" column="126" selection-start-line="39" selection-start-column="126" selection-end-line="39" selection-end-column="126" />
+            <state relative-caret-position="510">
+              <caret line="41" column="83" lean-forward="true" selection-start-line="41" selection-start-column="83" selection-end-line="41" selection-end-column="83" />
             </state>
           </provider>
         </entry>
@@ -122,6 +122,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>\&lt;\?php\n\/\*\*\n \* Created by PhpStorm\.\n \* User\: lining\n \* Date\: 2018\/6\/27\n \* Time\: 15\:13\n \*\/\n\nrequire_once \(\'Connect\.php\'\)\;\n\n\$tel \= \$_POST\[\'tel\'\]\;\n\$password \= \$_POST\[\'password\'\]\;\n\n\$sql_login \= \&quot;select \* from user where uTelephone \= \'\$tel\'\&quot;\;\n\n    \$result \= \$conn\-\&gt;query\(\$sql_login\)\;\n    if \(\$result\-\&gt;num_rows \&gt; 0\)\{\n        \$row \= \$result\-\&gt;fetch_assoc\(\)\;\n        if\(\$password \=\= \$row\[\'uPassword\'\]\)\{\n            \$data \= array\(\n                \&quot;nickname\&quot;\=\&gt;\$row\[\'uNickname\'\]\,\n                \&quot;telephone\&quot;\=\&gt;\$row\[\'uTelephone\'\]\,\n                \&quot;sex\&quot;\=\&gt;\$row\[\'uSex\'\]\,\n                \&quot;headphoto\&quot;\=\&gt;\$row\[\'uHeadPhoto\'\]\,\n                \&quot;introduce\&quot;\=\&gt;\$row\[\'uIntroduce\'\]\,\n                \&quot;isguide\&quot;\=\&gt;\$row\[\'uIsGuide\'\]\,\n                \&quot;guideid\&quot;\=\&gt;\$row\[\'uGuideId\'\]\,\n                \&quot;collectguideid\&quot;\=\&gt;\$row\[\'uCollectGuideId\'\]\,\n                \&quot;collecteassyid\&quot;\=\&gt;\$row\[\'uCollectEssayId\'\]\,\n                \&quot;star\&quot;\=\&gt;\$row\[\'uStars\'\]\,\n                \&quot;password\&quot;\=\&gt;\$row\[\'uPassword\'\]\n            \)\;\n            Response\:\:json\(1\,\&quot;登录成功\&quot;\,\$data\)\;\n        \}else\{\n            Response\:\:json\(0\,\&quot;密码错误\&quot;\,\&quot;\&quot;\)\;\n        \}\n    \}else\{\n        Response\:\:json\(0\,\&quot;账户不存在\&quot;\,\&quot;\&quot;\)\;\n    \}\n\n\n\n\$conn\-\&gt;close\(\)\;\n\n\n\n\n\n\n</find>
+      <find>\&lt;\?php\n\/\*\*\n \* Created by PhpStorm\.\n \* User\: lining\n \* Date\: 2018\/7\/3\n \* Time\: 9\:57\n \*\/\n\nrequire_once\(\&quot;Connect\.php\&quot;\)\;\n\n\$guideIDNumber \= \$_POST\[\'IDnumber\'\]\;\n\n\$sql_server_city \= \&quot;select \* from guide where gIDNumber \= \'\$guideIDNumber\'\&quot;\;\n\$result_server_city \= \$conn\-\&gt;query\(\$sql_server_city\)\;\nif\(\$result_server_city\-\&gt;num_rows\&gt;0\)\{\n    \$row_server_city \= \$result_server_city\-\&gt;fetch_assoc\(\)\;\n    \$serverPlace \= \$row_server_city\[\'gServerCity\'\]\;\n        \$guideId \= \$row_server_city\[\'gId\'\]\;\n    \$sql_get_guideUserId \= \&quot;select uId from user where uGuideId \= \$guideId\&quot;\;\n    \$result_guideUserId \= \$conn\-\&gt;query\(\$sql_get_guideUserId\)\;\n    if\(\$result_guideUserId\-\&gt;num_rows\&gt;0\)\{\n        \$row_guideUserId \= \$result_guideUserId\-\&gt;fetch_assoc\(\)\;\n        \$guideUserId \= \$row_guideUserId\[\'uId\'\]\;\n        \$arr1 \= explode\(\&quot; \&quot;\, \$serverPlace\)\;\n        if\(\$arr1\[0\] \=\= \&quot;北京市\&quot; \|\| \$arr1\[0\] \=\= \&quot;上海市\&quot; \|\| \$arr1\[0\] \=\= \&quot;天津市\&quot;\n            \|\| \$arr1\[0\] \=\= \&quot;重庆市\&quot;\|\| \$arr1\[0\] \=\= \&quot;香港\&quot; \|\| \$arr1\[0\] \=\= \&quot;澳门\&quot;\)\{\n            \$city \= \$arr1\[0\]\;\n        \}else\{\n            \$city \= \$arr1\[1\]\;\n        \}\n\n\n        \$sql_get_accepted_orderId \= \&quot;select gogOrderId from getorderguides where gogGuideId \= \$guideId\&quot;\;\n        \$result_accepted_orderId \= \$conn\-\&gt;query\(\$sql_get_accepted_orderId\)\;\n\n            \$sql_get_orders \= \&quot;select \* from \`order\` \n                           where \(oStatus \= \'idle\' and oUserId \!\= \$guideUserId\) \n                           or \(oStatus \= \'accepted\' and oUserId \!\= \$guideUserId\)\&quot;\;\n            \$result_get_orders \= \$conn\-\&gt;query\(\$sql_get_orders\)\;\n            if\(\$result_get_orders\-\&gt;num_rows\&gt;0\)\{\n                \$data \= array\(\)\;\n                while\(\$row_get_orders \= \$result_get_orders\-\&gt;fetch_assoc\(\)\)\{\n                    \$place \= \$row_get_orders\[\'oPlace\'\]\;\n                    \$arr2 \= explode\(\&quot; \&quot;\,\$place\)\;\n                    if\(\$arr2\[0\] \=\= \&quot;北京市\&quot; \|\| \$arr2\[0\] \=\= \&quot;上海市\&quot; \|\| \$arr2\[0\] \=\= \&quot;天津市\&quot;\n                        \|\| \$arr2\[0\] \=\= \&quot;重庆市\&quot;\|\| \$arr2\[0\] \=\= \&quot;香港\&quot; \|\| \$arr2\[0\] \=\= \&quot;澳门\&quot;\)\{\n                        \$placecity \= \$arr2\[0\]\;\n                    \}else\{\n                        \$placecity \= \$arr2\[1\]\;\n                    \}\n                    if\(\$placecity \=\= \$city\)\{\n                        \$info \= array\(\n                            \&quot;orderID\&quot;\=\&gt;\$row_get_orders\[\'oId\'\]\,\n                            \&quot;status\&quot;\=\&gt;\$row_get_orders\[\'oStatus\'\]\,\n                            \&quot;place\&quot;\=\&gt;\$row_get_orders\[\'oPlace\'\]\,\n                            \&quot;date\&quot;\=\&gt;\$row_get_orders\[\'oDate\'\]\,\n                            \&quot;numberOfPeople\&quot;\=\&gt;\$row_get_orders\[\'oNumberOfPeople\'\]\,\n                            \&quot;note\&quot;\=\&gt;\$row_get_orders\[\&quot;oDescription\&quot;\]\,\n                            \&quot;userNickname\&quot;\=\&gt;\$row_get_orders\[\'oUserNickname\'\]\n                        \)\;\n                        array_push\(\$data\,\$info\)\;\n                    \}\n                \}\n                Response\:\:json\(1\,\&quot;Get nearby orders success 2\&quot;\,\$data\)\;\n            \}else\{\n                Response\:\:json\(0\,\&quot;No orders\&quot;\,\&quot;\&quot;\)\;\n            \}\n    \}else\{\n        Response\:\:json\(0\,\&quot;Get guide as user id error\&quot;\.\$conn\-\&gt;error\,\&quot;\&quot;\)\;\n    \}\n\}else\{\n    Response\:\:json\(0\,\&quot;Get guide server city error\&quot;\,\&quot;\&quot;\)\;\n\}\n\$conn\-\&gt;close\(\)\;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -192,8 +193,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP-7.1" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="433" />
-    <option name="y" value="103" />
+    <option name="x" value="192" />
+    <option name="y" value="102" />
     <option name="width" value="1185" />
     <option name="height" value="827" />
   </component>
@@ -303,12 +304,12 @@
       <workItem from="1530837382953" duration="21496000" />
       <workItem from="1530875281087" duration="427000" />
       <workItem from="1530927887367" duration="5827000" />
-      <workItem from="1531095969301" duration="2334000" />
+      <workItem from="1531095969301" duration="5173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170510000" />
+    <option name="totallyTimeSpent" value="173349000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -323,16 +324,17 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2377892" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289256" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289256" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.45454547" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.02035278" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2377892" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.18046133" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -342,7 +344,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3289256" />
@@ -532,13 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/UserGetIdleOrders.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -679,13 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="50" column="51" selection-start-line="43" selection-start-column="20" selection-end-line="50" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/GuideGetUser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
@@ -714,10 +701,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="50" column="51" selection-start-line="43" selection-start-column="20" selection-end-line="50" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/GuideGetNearbyOrders.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="39" column="126" selection-start-line="39" selection-start-column="126" selection-end-line="39" selection-end-column="126" />
+        <state relative-caret-position="510">
+          <caret line="41" column="83" lean-forward="true" selection-start-line="41" selection-start-column="83" selection-end-line="41" selection-end-column="83" />
         </state>
       </provider>
     </entry>
