@@ -35,10 +35,9 @@ if($result_server_city->num_rows>0){
         if($result_accepted_orderId->num_rows>0){
             $data = array();
             while ($row_get_accepted_orderId = $result_accepted_orderId->fetch_assoc()){
-                $orderId = $row_get_accepted_orderId['oId'];
+                $orderId = $row_get_accepted_orderId['gogOrderId'];
                 $sql_get_orders = "select * from `order` 
-                           where (oStatus = 'idle' and oUserId != $guideUserId and oId != $orderId) 
-                           or (oStatus = 'accepted' and oUserId != $guideUserId and oId != $orderId)";
+                           where oUserId != $guideUserId and oId != $orderId and (oStatus = 'idle' or oStatus = 'accepted') ";
                 $result_get_orders = $conn->query($sql_get_orders);
                 if($result_get_orders->num_rows>0){
                     while($row_get_orders = $result_get_orders->fetch_assoc()){
