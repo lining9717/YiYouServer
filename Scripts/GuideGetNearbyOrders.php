@@ -31,7 +31,10 @@ if ($result_server_city->num_rows > 0) {
 
         $sql_get_orders = "select o.oId,o.oStatus,o.oPlace,o.oDate,o.oNumberOfPeople,o.oDescription,o.oUserNickname
                            from `order` as o, getorderguides as g
-                           where (o.oStatus = 'idle' or o.oStatus = 'accepted') and g.gogGuideId != $guideId and g.gogOrderId == o.oId";
+                           where o.oUserId != $guideUserId 
+                           and (o.oStatus = 'idle' or o.oStatus = 'accepted') 
+                           and g.gogGuideId != $guideId 
+                           and g.gogOrderId == o.oId";
         $result_get_orders = $conn->query($sql_get_orders);
         if ($result_get_orders->num_rows > 0) {
             $data = array();
