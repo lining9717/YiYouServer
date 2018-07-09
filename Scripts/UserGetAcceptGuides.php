@@ -34,7 +34,7 @@ if($result_get_guides->num_rows>0){
                 array_push($data, $info);
             }else{
                 $info = array(
-                    "realname" => " ",
+                    "realname" => 0,
                     "guideNumber" => " ",
                     "servercity" => " ",
                     "star" => 0,
@@ -47,7 +47,7 @@ if($result_get_guides->num_rows>0){
             }
         }else{
             $info = array(
-                "realname" => " ",
+                "realname" => 0,
                 "guideNumber" => " ",
                 "servercity" => " ",
                 "star" => 0,
@@ -63,7 +63,7 @@ if($result_get_guides->num_rows>0){
 }else{
     $data = array();
     $info = array(
-        "realname" => " ",
+        "realname" => 0,
         "guideNumber" => " ",
         "servercity" => " ",
         "star" => 0,

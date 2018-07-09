@@ -34,7 +34,7 @@ if($result_get_guideId->num_rows>0){
         }
         if(empty($data)){
             $info = array(
-                "orderID"=>" ",
+                "orderID"=>0,
                 "status"=>" ",
                 "place"=>" ",
                 "date"=>" ",
@@ -50,7 +50,7 @@ if($result_get_guideId->num_rows>0){
     }else{
         $data=array();
         $info = array(
-            "orderID"=>" ",
+            "orderID"=>0,
             "status"=>" ",
             "place"=>" ",
             "date"=>" ",
@@ -64,7 +64,7 @@ if($result_get_guideId->num_rows>0){
 }else{
     $data=array();
     $info = array(
-        "orderID"=>" ",
+        "orderID"=>0,
         "status"=>" ",
         "place"=>" ",
         "date"=>" ",

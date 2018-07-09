@@ -35,7 +35,7 @@ if($result_user_info->num_rows>0){
     }else{
         $data=array();
         $info = array(
-            "orderID"=>" ",
+            "orderID"=>0,
             "status"=>" ",
             "place"=>" ",
             "date"=>" ",
@@ -49,7 +49,7 @@ if($result_user_info->num_rows>0){
 }else{
     $data=array();
     $info = array(
-        "orderID"=>" ",
+        "orderID"=>0,
         "status"=>" ",
         "place"=>" ",
         "date"=>" ",

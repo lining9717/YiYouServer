@@ -8,7 +8,7 @@
 
 require_once("Connect.php");
 
-$guideIDNumber = $_POST['IDnumber'];
+$guideIDNumber = $_POST['guideIDNumber'];
 
 
 function GetAcceptedOrdersId($conn,$guideId){
@@ -74,7 +74,7 @@ if ($result_server_city->num_rows > 0) {
         } else {
             $data = array();
             $info = array(
-                "orderID"=>" ",
+                "orderID"=>0,
                 "status"=>" ",
                 "place"=>" ",
                 "date"=>" ",
@@ -88,7 +88,7 @@ if ($result_server_city->num_rows > 0) {
     } else {
         $data = array();
         $info = array(
-            "orderID"=>" ",
+            "orderID"=>0,
             "status"=>" ",
             "place"=>" ",
             "date"=>" ",
@@ -102,7 +102,7 @@ if ($result_server_city->num_rows > 0) {
 } else {
     $data = array();
     $info = array(
-        "orderID"=>" ",
+        "orderID"=>0,
         "status"=>" ",
         "place"=>" ",
         "date"=>" ",

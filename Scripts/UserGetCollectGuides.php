@@ -41,7 +41,7 @@ if($result_get_userId->num_rows>0){
         }
         if(empty($data)){
             $info = array(
-                "guiderealname"=>" ",
+                "guiderealname"=>0,
                 "guideIDnumbr"=>" ",
                 "guideNumber"=>" ",
                 "guideservercity"=>" ",
@@ -56,7 +56,7 @@ if($result_get_userId->num_rows>0){
     }else{
         $data=array();
         $info = array(
-            "guiderealname"=>" ",
+            "guiderealname"=>0,
             "guideIDnumbr"=>" ",
             "guideNumber"=>" ",
             "guideservercity"=>" ",
@@ -69,7 +69,7 @@ if($result_get_userId->num_rows>0){
 }else{
     $data=array();
     $info = array(
-        "guiderealname"=>" ",
+        "guiderealname"=>0,
         "guideIDnumbr"=>" ",
         "guideNumber"=>" ",
         "guideservercity"=>" ",
