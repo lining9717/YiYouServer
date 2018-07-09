@@ -34,7 +34,7 @@ if($result_get_all_bowen->num_rows>0){
 }else{
     $data = array();
     $info = array(
-        "bowenId"=>" ",
+        "bowenId"=>0,
         "userNickname"=>" ",
         "title"=>" ",
         "ZanNumber"=>0,

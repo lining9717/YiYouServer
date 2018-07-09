@@ -43,7 +43,7 @@ if($result_get_userId->num_rows>0){
         }
         if(empty($data)){
             $info = array(
-                "bowenId"=>" ",
+                "bowenId"=>0,
                 "userNickname"=>" ",
                 "title"=>" ",
                 "ZanNumber"=>0,
@@ -59,7 +59,7 @@ if($result_get_userId->num_rows>0){
     }else{
         $data=array();
         $info = array(
-            "bowenId"=>" ",
+            "bowenId"=>0,
             "userNickname"=>" ",
             "title"=>" ",
             "ZanNumber"=>0,
@@ -73,7 +73,7 @@ if($result_get_userId->num_rows>0){
 }else{
     $data=array();
     $info = array(
-        "bowenId"=>"error",
+        "bowenId"=>0,
         "userNickname"=>"error",
         "title"=>"error",
         "ZanNumber"=>0,
