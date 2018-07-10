@@ -25,6 +25,7 @@ if($result_get_all_bowen->num_rows>0){
                 "ZanNumber"=>$row_get_all_bowen['bZanNumber'],
                 "collectedNumber"=>$row_get_all_bowen['bCollectNumber'],
                 "time"=>$row_get_all_bowen['bTime'],
+                "image"=>$row_get_all_bowen['bImage'],
                 "userheadIcon"=>$row_get_user_headicon['uHeadPhoto']
             );
             array_push($data,$info);
@@ -40,6 +41,7 @@ if($result_get_all_bowen->num_rows>0){
         "ZanNumber"=>0,
         "collectedNumber"=>0,
         "time"=>" ",
+        "image"=>" ",
         "userheadIcon"=>" "
     );
     array_push($data,$info);
