@@ -35,7 +35,7 @@ if($result_get_all_bowen->num_rows>0){
     }else{
         $info = array(
             "bowenId"=>0,
-            "userId"=>" ",
+            "userId"=>0,
             "userNickname"=>" ",
             "title"=>" ",
             "content"=>" ",
@@ -51,7 +51,7 @@ if($result_get_all_bowen->num_rows>0){
 }else{
     $info = array(
         "bowenId"=>0,
-        "userId"=>" ",
+        "userId"=>0,
         "userNickname"=>" ",
         "title"=>" ",
         "content"=>" ",
