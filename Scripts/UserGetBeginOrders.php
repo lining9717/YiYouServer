@@ -20,6 +20,11 @@ if($result_user_info->num_rows>0){
     if($result_get_unfinished_order->num_rows>0){
         $data = array();
         while($row = $result_get_unfinished_order->fetch_assoc()){
+            $guideId = $row['oGuideId'];
+            $sql_get_guide_headicon = "select * from user where uGuideId = $guideId";
+            $result_get_guide_headicon = $conn->query($sql_get_guide_headicon);
+            $row_get_guide_headicon = $result_get_guide_headicon->fetch_assoc();
+
             if($row['oToGuideStar'] == 0){
                 $info = array(
                     "orderID"=>$row['oId'],
@@ -28,7 +33,8 @@ if($result_user_info->num_rows>0){
                     "date"=>$row['oDate'],
                     "numberOfPeople"=>$row['oNumberOfPeople'],
                     "note"=>$row["oDescription"],
-                    "userNickname"=>$row['oUserNickname']
+                    "userNickname"=>$row['oUserNickname'],
+                    "guideHeadIcon"=>$row_get_guide_headicon['uHeadPhoto']
                 );
                 array_push($data,$info);
             }
@@ -41,7 +47,8 @@ if($result_user_info->num_rows>0){
                 "date"=>" ",
                 "numberOfPeople"=>0,
                 "note"=>" ",
-                "userNickname"=>" "
+                "userNickname"=>" ",
+                "guideHeadIcon"=>" "
             );
             array_push($data,$info);
             Response::json(0,"No begin orders",$data);
@@ -57,7 +64,8 @@ if($result_user_info->num_rows>0){
             "date"=>" ",
             "numberOfPeople"=>0,
             "note"=>" ",
-            "userNickname"=>" "
+            "userNickname"=>" ",
+            "guideHeadIcon"=>" "
         );
         array_push($data,$info);
         Response::json(0,"No begin orders",$data);
@@ -71,7 +79,8 @@ if($result_user_info->num_rows>0){
         "date"=>" ",
         "numberOfPeople"=>0,
         "note"=>" ",
-        "userNickname"=>" "
+        "userNickname"=>" ",
+        "guideHeadIcon"=>" "
     );
     array_push($data,$info);
     Response::json(0,"Account error",$data);
