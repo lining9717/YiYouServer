@@ -44,7 +44,7 @@ if($result_user_info->num_rows>0){
             "userNickname"=>" "
         );
         array_push($data,$info);
-        Response::json(1,"No accept orders",$data);
+        Response::json(0,"No accept orders",$data);
     }
 }else{
     $data=array();

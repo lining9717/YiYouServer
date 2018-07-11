@@ -14,7 +14,8 @@ $result_get_guideId = $conn->query($sql_get_guideId);
 if($result_get_guideId->num_rows>0){
     $row_get_guideId = $result_get_guideId->fetch_assoc();
     $guideId = $row_get_guideId['gId'];
-    $sql_get_begin_oreders = "select * from `order` where oGuideId = $guideId and oStatus = 'finished'";
+    $sql_get_begin_oreders = "select * from `order` where oGuideId = $guideId 
+                            and (oStatus = 'finished' or (oStatus = 'begin' and oToUserStar != 0 and oToGuideStar = 0))";
     $result_get_begin_oreders = $conn->query($sql_get_begin_oreders);
     if($result_get_begin_oreders->num_rows>0){
         $data = array();
