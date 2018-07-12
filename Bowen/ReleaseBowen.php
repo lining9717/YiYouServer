@@ -38,8 +38,8 @@ if($result_get_user_info->num_rows>0){
             $imagepath= "http://118.89.18.136/YiYou/image/".$newfile;
             if(move_uploaded_file($_FILES["file"]["tmp_name"], "image/".$newfile)){
                 $sql_release_bowen = "insert into bowen".
-                    "(bUserId,bUserNickName,bTitle,bBody,bZanNumber,bCommentId,bCollectNumber,bTime,bImage) ".
-                    "values($userId,'$userNickname','$title','$content',0,0,0,'$time','$imagepath')";
+                    "(bUserId,bUserNickName,bTitle,bBody,bZanNumber,bCollectNumber,bTime,bImage) ".
+                    "values($userId,'$userNickname','$title','$content',0,0,'$time','$imagepath')";
                 if ($conn->query($sql_release_bowen) === TRUE) {
                     Response::json(1,"Release bowen success","");
                 } else {

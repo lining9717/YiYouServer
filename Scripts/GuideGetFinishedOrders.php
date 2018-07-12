@@ -20,7 +20,6 @@ if($result_get_guideId->num_rows>0){
     if($result_get_begin_oreders->num_rows>0){
         $data = array();
         while($row = $result_get_begin_oreders->fetch_assoc()){
-            if($row['oToGuideStar'] == 0){
                 $info = array(
                     "orderID"=>$row['oId'],
                     "status"=>$row['oStatus'],
@@ -31,7 +30,6 @@ if($result_get_guideId->num_rows>0){
                     "userNickname"=>$row['oUserNickname']
                 );
                 array_push($data,$info);
-            }
         }
         if(empty($data)){
             $info = array(
